@@ -34,10 +34,10 @@
         "SourceXmlFolder": "dotnet/xml",
         "OutputYamlFolder": "dotnet/api",
         "Flatten": true,
-        "id": "dotnet-template"
+        "id": "sqlite-dotnet"
       },
       "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
+        "dotnet/api/sqlite-dotnet/toc.yml"
       ],
       "DiffFolder": [
         "dotnet/api"
