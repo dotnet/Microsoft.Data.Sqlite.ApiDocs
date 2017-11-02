@@ -1,48 +1,55 @@
 <Overview>
   <Assemblies>
-    <Assembly Name="CatLibrary" Version="1.0.0.0">
+    <Assembly Name="Microsoft.Data.Sqlite" Version="2.0.0.0">
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.Default | System.Diagnostics.DebuggableAttribute+DebuggingModes.DisableOptimizations | System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints | System.Diagnostics.DebuggableAttribute+DebuggingModes.EnableEditAndContinue)</AttributeName>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyCompany("Hewlett-Packard Company")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation.")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyConfiguration("Release")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyCopyright("Copyright © Hewlett-Packard Company 2015")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright © Microsoft Corporation")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyDescription("SQLite implementation of the System.Data.Common provider model.\n\nCommonly Used Types:\nMicrosoft.Data.Sqlite.SqliteCommand\nMicrosoft.Data.Sqlite.SqliteConnection\nMicrosoft.Data.Sqlite.SqliteConnectionStringBuilder\nMicrosoft.Data.Sqlite.SqliteDataReader\nMicrosoft.Data.Sqlite.SqliteException\nMicrosoft.Data.Sqlite.SqliteFactory\nMicrosoft.Data.Sqlite.SqliteParameter\nMicrosoft.Data.Sqlite.SqliteTransaction")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.0.0")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyFileVersion("2.0.0.17205")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyProduct("CatLibrary")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("2.0.0-rtm-26452")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyTitle("CatLibrary")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyMetadata("Serviceable", "True")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "e47e05e6cdc2d14e700025cb61df3567a0b421ee")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("Microsoft .NET")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Data.Sqlite")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Resources.NeutralResourcesLanguage("en-US")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
         </Attribute>
         <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Data.Sqlite.Tests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100f33a29044fa9d740c9b3213a93e57c84b472c84e0b8a0e1ae48e67a9f8f6de9d5f7f3d52ac23e48ac51801f1dc950abe901da34d2a9e3baadb141a17c77ef3c565dd5ee5054b91cf63bb3c6ab83f72ab3aafe93d0fc3c2348b764fafb0b1c0733de51459aeab46580384bf9d74c4e28164b7cde247f891ba07891c9d872ad2bb")</AttributeName>
+        </Attribute>
+        <Attribute>
           <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.InteropServices.Guid("ebf2ea46-ea00-4350-be1d-d86afd699db3")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5", FrameworkDisplayName=".NET Framework 4.5")</AttributeName>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETStandard,Version=v2.0", FrameworkDisplayName="")</AttributeName>
         </Attribute>
       </Attributes>
     </Assembly>
@@ -50,76 +57,20 @@
   <Remarks>To be added.</Remarks>
   <Copyright>To be added.</Copyright>
   <Types>
-    <Namespace Name="CatLibrary">
-      <Type Name="Cat`2" DisplayName="Cat&lt;T,K&gt;" Kind="Class" />
-      <Type Name="CatException`1" DisplayName="CatException&lt;T&gt;" Kind="Class" />
-      <Type Name="Complex`2" DisplayName="Complex&lt;T,J&gt;" Kind="Class" />
-      <Type Name="FakeDelegate`1" DisplayName="FakeDelegate&lt;T&gt;" Kind="Delegate" />
-      <Type Name="IAnimal" Kind="Interface" />
-      <Type Name="ICat" Kind="Interface" />
-      <Type Name="ICatExtension" Kind="Class" />
-      <Type Name="MRefDelegate`3" DisplayName="MRefDelegate&lt;K,T,L&gt;" Kind="Delegate" />
-      <Type Name="MRefNormalDelegate" Kind="Delegate" />
-      <Type Name="Tom" Kind="Class" />
-      <Type Name="TomFromBaseClass" Kind="Class" />
-    </Namespace>
-    <Namespace Name="MRef.Demo.Enumeration">
-      <Type Name="ColorType" Kind="Enumeration" />
+    <Namespace Name="Microsoft.Data.Sqlite">
+      <Type Name="SqliteCacheMode" Kind="Enumeration" />
+      <Type Name="SqliteCommand" Kind="Class" />
+      <Type Name="SqliteConnection" Kind="Class" />
+      <Type Name="SqliteConnectionStringBuilder" Kind="Class" />
+      <Type Name="SqliteDataReader" Kind="Class" />
+      <Type Name="SqliteException" Kind="Class" />
+      <Type Name="SqliteFactory" Kind="Class" />
+      <Type Name="SqliteOpenMode" Kind="Enumeration" />
+      <Type Name="SqliteParameter" Kind="Class" />
+      <Type Name="SqliteParameterCollection" Kind="Class" />
+      <Type Name="SqliteTransaction" Kind="Class" />
+      <Type Name="SqliteType" Kind="Enumeration" />
     </Namespace>
   </Types>
-  <Title>CatLibrary</Title>
-  <ExtensionMethods>
-    <ExtensionMethod>
-      <Targets>
-        <Target Type="T:CatLibrary.ICat" />
-      </Targets>
-      <Member MemberName="Play">
-        <MemberSignature Language="C#" Value="public static void Play (this CatLibrary.ICat icat, string toy);" />
-        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Play(class CatLibrary.ICat icat, string toy) cil managed" />
-        <MemberSignature Language="DocId" Value="M:CatLibrary.ICatExtension.Play(CatLibrary.ICat,System.String)" />
-        <MemberType>ExtensionMethod</MemberType>
-        <ReturnValue>
-          <ReturnType>System.Void</ReturnType>
-        </ReturnValue>
-        <Parameters>
-          <Parameter Name="icat" Type="CatLibrary.ICat" RefType="this" />
-          <Parameter Name="toy" Type="System.String" />
-        </Parameters>
-        <Docs>
-          <param name="icat">Cat</param>
-          <param name="toy">Something to play</param>
-          <summary>
-            Extension method to let cat play
-            </summary>
-        </Docs>
-        <Link Type="CatLibrary.ICatExtension" Member="M:CatLibrary.ICatExtension.Play(CatLibrary.ICat,System.String)" />
-      </Member>
-    </ExtensionMethod>
-    <ExtensionMethod>
-      <Targets>
-        <Target Type="T:CatLibrary.ICat" />
-      </Targets>
-      <Member MemberName="Sleep">
-        <MemberSignature Language="C#" Value="public static void Sleep (this CatLibrary.ICat icat, long hours);" />
-        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sleep(class CatLibrary.ICat icat, int64 hours) cil managed" />
-        <MemberSignature Language="DocId" Value="M:CatLibrary.ICatExtension.Sleep(CatLibrary.ICat,System.Int64)" />
-        <MemberType>ExtensionMethod</MemberType>
-        <ReturnValue>
-          <ReturnType>System.Void</ReturnType>
-        </ReturnValue>
-        <Parameters>
-          <Parameter Name="icat" Type="CatLibrary.ICat" RefType="this" />
-          <Parameter Name="hours" Type="System.Int64" />
-        </Parameters>
-        <Docs>
-          <param name="icat">The type will be extended.</param>
-          <param name="hours">The length of sleep.</param>
-          <summary>
-            Extension method hint that how long the cat can sleep.
-            </summary>
-        </Docs>
-        <Link Type="CatLibrary.ICatExtension" Member="M:CatLibrary.ICatExtension.Sleep(CatLibrary.ICat,System.Int64)" />
-      </Member>
-    </ExtensionMethod>
-  </ExtensionMethods>
+  <Title>Microsoft.Data.Sqlite</Title>
 </Overview>
