@@ -2,6 +2,8 @@
   <TypeSignature Language="C#" Value="public class SqliteException : System.Data.Common.DbException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SqliteException extends System.Data.Common.DbException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.SqliteException" />
+  <TypeSignature Language="VB.NET" Value="Public Class SqliteException&#xA;Inherits DbException" />
+  <TypeSignature Language="F#" Value="type SqliteException = class&#xA;    inherit DbException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,6 +25,8 @@
       <MemberSignature Language="C#" Value="public SqliteException (string message, int errorCode);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, int32 errorCode) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, errorCode As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteException : string * int -&gt; Microsoft.Data.Sqlite.SqliteException" Usage="new Microsoft.Data.Sqlite.SqliteException (message, errorCode)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -47,6 +51,8 @@
       <MemberSignature Language="C#" Value="public virtual int SqliteErrorCode { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 SqliteErrorCode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteException.SqliteErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SqliteErrorCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.SqliteErrorCode : int" Usage="Microsoft.Data.Sqlite.SqliteException.SqliteErrorCode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -69,6 +75,8 @@
       <MemberSignature Language="C#" Value="public static void ThrowExceptionForRC (int rc, SQLitePCL.sqlite3 db);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ThrowExceptionForRC(int32 rc, class SQLitePCL.sqlite3 db) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(System.Int32,SQLitePCL.sqlite3)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ThrowExceptionForRC (rc As Integer, db As sqlite3)" />
+      <MemberSignature Language="F#" Value="static member ThrowExceptionForRC : int * SQLitePCL.sqlite3 -&gt; unit" Usage="Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC (rc, db)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>

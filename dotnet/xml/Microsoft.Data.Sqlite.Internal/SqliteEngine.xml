@@ -2,6 +2,8 @@
   <TypeSignature Language="C#" Value="public static class SqliteEngine" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SqliteEngine extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.Internal.SqliteEngine" />
+  <TypeSignature Language="VB.NET" Value="Public Class SqliteEngine" />
+  <TypeSignature Language="F#" Value="type SqliteEngine = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -22,6 +24,8 @@
       <MemberSignature Language="C#" Value="public static void UseWinSqlite3 ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UseWinSqlite3() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.Internal.SqliteEngine.UseWinSqlite3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub UseWinSqlite3 ()" />
+      <MemberSignature Language="F#" Value="static member UseWinSqlite3 : unit -&gt; unit" Usage="Microsoft.Data.Sqlite.Internal.SqliteEngine.UseWinSqlite3 " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
