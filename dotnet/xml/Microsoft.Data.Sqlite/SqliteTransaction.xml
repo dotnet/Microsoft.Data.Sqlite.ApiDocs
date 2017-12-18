@@ -2,6 +2,8 @@
   <TypeSignature Language="C#" Value="public class SqliteTransaction : System.Data.Common.DbTransaction" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SqliteTransaction extends System.Data.Common.DbTransaction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.SqliteTransaction" />
+  <TypeSignature Language="VB.NET" Value="Public Class SqliteTransaction&#xA;Inherits DbTransaction" />
+  <TypeSignature Language="F#" Value="type SqliteTransaction = class&#xA;    inherit DbTransaction" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -23,6 +25,8 @@
       <MemberSignature Language="C#" Value="public override void Commit ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Commit() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Commit" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Commit ()" />
+      <MemberSignature Language="F#" Value="override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -45,6 +49,8 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection Connection { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Data.Sqlite.SqliteConnection Connection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteTransaction.Connection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Connection As SqliteConnection" />
+      <MemberSignature Language="F#" Value="member this.Connection : Microsoft.Data.Sqlite.SqliteConnection" Usage="Microsoft.Data.Sqlite.SqliteTransaction.Connection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -67,6 +73,8 @@
       <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection DbConnection { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Data.Common.DbConnection DbConnection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteTransaction.DbConnection" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property DbConnection As DbConnection" />
+      <MemberSignature Language="F#" Value="member this.DbConnection : System.Data.Common.DbConnection" Usage="Microsoft.Data.Sqlite.SqliteTransaction.DbConnection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -89,6 +97,8 @@
       <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -116,6 +126,8 @@
       <MemberSignature Language="C#" Value="public override System.Data.IsolationLevel IsolationLevel { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Data.IsolationLevel IsolationLevel" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteTransaction.IsolationLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsolationLevel As IsolationLevel" />
+      <MemberSignature Language="F#" Value="member this.IsolationLevel : System.Data.IsolationLevel" Usage="Microsoft.Data.Sqlite.SqliteTransaction.IsolationLevel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -139,6 +151,8 @@
       <MemberSignature Language="C#" Value="public override void Rollback ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Rollback() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Rollback" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Rollback ()" />
+      <MemberSignature Language="F#" Value="override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>

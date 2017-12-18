@@ -54,7 +54,6 @@
       </Attributes>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
-      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
     </Assembly>
   </Assemblies>
   <Remarks>To be added.</Remarks>
@@ -78,5 +77,5 @@
       <Type Name="SqliteEngine" Kind="Class" />
     </Namespace>
   </Types>
-  <Title>Microsoft.Data.Sqlite</Title>
+  <Title>Untitled</Title>
 </Overview>
