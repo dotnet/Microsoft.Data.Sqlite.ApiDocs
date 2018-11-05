@@ -486,6 +486,7 @@
             </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:Microsoft.Data.Sqlite.SqliteException">A SQLite error occurs while opening the connection.</exception>
+        <exception cref="T:System.NotSupportedException">An unsupported version was specified in the connection string.</exception>
       </Docs>
     </Member>
     <Member MemberName="ServerVersion">
