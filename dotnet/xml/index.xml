@@ -6,10 +6,10 @@
         <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-3.0.0">
           <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation.")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Reflection.AssemblyConfiguration("Release")</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
@@ -18,22 +18,13 @@
         <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
           <AttributeName>System.Reflection.AssemblyDescription("SQLite implementation of the System.Data.Common provider model.\n\nCommonly Used Types:\nMicrosoft.Data.Sqlite.SqliteCommand\nMicrosoft.Data.Sqlite.SqliteConnection\nMicrosoft.Data.Sqlite.SqliteConnectionStringBuilder\nMicrosoft.Data.Sqlite.SqliteDataReader\nMicrosoft.Data.Sqlite.SqliteException\nMicrosoft.Data.Sqlite.SqliteFactory\nMicrosoft.Data.Sqlite.SqliteParameter\nMicrosoft.Data.Sqlite.SqliteTransaction")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
-          <AttributeName>System.Reflection.AssemblyFileVersion("2.0.0.17205")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("2.0.0-rtm-26452")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Reflection.AssemblyMetadata("Serviceable", "True")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
-          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "e47e05e6cdc2d14e700025cb61df3567a0b421ee")</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0">
           <AttributeName>System.Reflection.AssemblyProduct("Microsoft .NET")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Reflection.AssemblyTitle("Microsoft.Data.Sqlite")</AttributeName>
         </Attribute>
         <Attribute>
@@ -48,37 +39,19 @@
         <Attribute>
           <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Runtime.Versioning.TargetFramework(".NETStandard,Version=v2.0", FrameworkDisplayName="")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-3.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Reflection.AssemblyCopyright("© Microsoft Corporation. All rights reserved.")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-3.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Reflection.AssemblyDescription("SQLite implementation of the System.Data.Common provider model.\r\n\r\nCommonly Used Types:\r\nMicrosoft.Data.Sqlite.SqliteCommand\r\nMicrosoft.Data.Sqlite.SqliteConnection\r\nMicrosoft.Data.Sqlite.SqliteConnectionStringBuilder\r\nMicrosoft.Data.Sqlite.SqliteDataReader\r\nMicrosoft.Data.Sqlite.SqliteException\r\nMicrosoft.Data.Sqlite.SqliteFactory\r\nMicrosoft.Data.Sqlite.SqliteParameter\r\nMicrosoft.Data.Sqlite.SqliteTransaction")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0">
-          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.0.20622")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0">
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.0-rtm-21431")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0">
-          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "ed533c83461b550f8a5d7f9217edcddd499e166d")</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0">
           <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.5.1")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.1.0">
-          <AttributeName>System.Reflection.AssemblyFileVersion("1.1.0.21115")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.1.0">
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.1.0-rtm-22752")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-1.1.0">
-          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "67b75fa6fd637dcc90293aab2f96d16864bcd938")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Diagnostics.Debuggable</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="msdata-sqlite-3.0.0">
@@ -90,10 +63,73 @@
         <Attribute FrameworkAlternate="msdata-sqlite-3.0.0">
           <AttributeName>System.Reflection.AssemblyInformationalVersion("3.0.0")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="msdata-sqlite-3.0.0">
+        <Attribute FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0">
           <AttributeName>System.Reflection.AssemblyProduct("Microsoft Entity Framework Core")</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0">
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.0.1.21122")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0">
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.0.1")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-1.0.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "db2bd5f921a636491b82642a8859717b464201f2")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-1.1.0">
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.1.1.30427")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-1.1.0">
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("1.1.1")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-1.1.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "885442e5a01ba25f4729ee29d943a6cc9527d90b")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
+          <AttributeName>System.Reflection.AssemblyFileVersion("2.0.1.18051")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("2.0.1-rtm-10011")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "da74078a40763971fe12494de9f1dbdb8daf46ab")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.0.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("BuildNumber", "10011")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.1.0">
+          <AttributeName>System.Reflection.AssemblyFileVersion("2.1.11.19108")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.1.0">
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("2.1.11-servicing-32099")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.1.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "e8f2f1ef030701048cd47898a7d7d70a58342ba4")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.1.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("BuildNumber", "32099")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.2.0">
+          <AttributeName>System.Reflection.AssemblyFileVersion("2.2.6.19169")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.2.0">
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("2.2.6-servicing-10079")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.2.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("CommitHash", "01da710cdeff0431fc60379580aa63f335fbc165")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.2.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("SourceCommitUrl", "https://github.com/aspnet/EntityFrameworkCore/tree/01da710cdeff0431fc60379580aa63f335fbc165")</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-2.2.0">
+          <AttributeName>System.Reflection.AssemblyMetadata("BuildNumber", "10079")</AttributeName>
+        </Attribute>
       </Attributes>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>
       <AssemblyPublicKey>[00 24 00 00 04 80 00 00 94 00 00 00 06 02 00 00 00 24 00 00 52 53 41 31 00 04 00 00 01 00 01 00 f3 3a 29 04 4f a9 d7 40 c9 b3 21 3a 93 e5 7c 84 b4 72 c8 4e 0b 8a 0e 1a e4 8e 67 a9 f8 f6 de 9d 5f 7f 3d 52 ac 23 e4 8a c5 18 01 f1 dc 95 0a be 90 1d a3 4d 2a 9e 3b aa db 14 1a 17 c7 7e f3 c5 65 dd 5e e5 05 4b 91 cf 63 bb 3c 6a b8 3f 72 ab 3a af e9 3d 0f c3 c2 34 8b 76 4f af b0 b1 c0 73 3d e5 14 59 ae ab 46 58 03 84 bf 9d 74 c4 e2 81 64 b7 cd e2 47 f8 91 ba 07 89 1c 9d 87 2a d2 bb ]</AssemblyPublicKey>

@@ -7,8 +7,13 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <AssemblyVersion>2.1.11.0</AssemblyVersion>
+    <AssemblyVersion>2.2.6.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -31,8 +36,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -53,8 +63,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -78,8 +93,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -105,8 +125,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -129,14 +154,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Cancel() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Cancel ()" />
-      <MemberSignature Language="F#" Value="override this.Cancel : unit -&gt; unit" Usage="sqliteCommand.Cancel " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.Cancel : unit -&gt; unit" Usage="sqliteCommand.Cancel " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member Cancel : unit -&gt; unit&#xA;override this.Cancel : unit -&gt; unit" Usage="sqliteCommand.Cancel " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -160,8 +190,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -185,8 +220,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -213,8 +253,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -239,8 +284,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -259,14 +309,19 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbParameter CreateDbParameter() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.CreateDbParameter" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDbParameter () As DbParameter" />
-      <MemberSignature Language="F#" Value="override this.CreateDbParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteCommand.CreateDbParameter " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.CreateDbParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteCommand.CreateDbParameter " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member CreateDbParameter : unit -&gt; System.Data.Common.DbParameter&#xA;override this.CreateDbParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteCommand.CreateDbParameter " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -286,14 +341,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteParameter CreateParameter() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.CreateParameter" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateParameter () As SqliteParameter" />
-      <MemberSignature Language="F#" Value="override this.CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteCommand.CreateParameter " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteCommand.CreateParameter " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter&#xA;override this.CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteCommand.CreateParameter " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -317,6 +377,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -340,8 +402,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -365,8 +432,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -390,8 +462,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -415,8 +492,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -435,17 +517,20 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
-      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteCommand.Dispose disposing" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteCommand.Dispose disposing" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteCommand.Dispose disposing" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <param name="disposing">
@@ -462,14 +547,19 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbDataReader ExecuteDbDataReader(valuetype System.Data.CommandBehavior behavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(System.Data.CommandBehavior)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ExecuteDbDataReader (behavior As CommandBehavior) As DbDataReader" />
-      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader" Usage="sqliteCommand.ExecuteDbDataReader behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader" Usage="sqliteCommand.ExecuteDbDataReader behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader&#xA;override this.ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader" Usage="sqliteCommand.ExecuteDbDataReader behavior" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -491,14 +581,19 @@
       <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt; ExecuteDbDataReaderAsync (System.Data.CommandBehavior behavior, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Threading.Tasks.Task`1&lt;class System.Data.Common.DbDataReader&gt; ExecuteDbDataReaderAsync(valuetype System.Data.CommandBehavior behavior, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;" Usage="sqliteCommand.ExecuteDbDataReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;" Usage="sqliteCommand.ExecuteDbDataReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;&#xA;override this.ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;" Usage="sqliteCommand.ExecuteDbDataReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -523,14 +618,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 ExecuteNonQuery() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ExecuteNonQuery () As Integer" />
-      <MemberSignature Language="F#" Value="override this.ExecuteNonQuery : unit -&gt; int" Usage="sqliteCommand.ExecuteNonQuery " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteNonQuery : unit -&gt; int" Usage="sqliteCommand.ExecuteNonQuery " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteNonQuery : unit -&gt; int&#xA;override this.ExecuteNonQuery : unit -&gt; int" Usage="sqliteCommand.ExecuteNonQuery " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -551,14 +651,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteDataReader ExecuteReader() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReader () As SqliteDataReader" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader&#xA;override this.ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -579,14 +684,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteDataReader ExecuteReader(valuetype System.Data.CommandBehavior behavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(System.Data.CommandBehavior)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReader (behavior As CommandBehavior) As SqliteDataReader" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader&#xA;override this.ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader behavior" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -610,14 +720,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReaderAsync () As Task(Of SqliteDataReader)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -639,14 +754,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync(valuetype System.Data.CommandBehavior behavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReaderAsync (behavior As CommandBehavior) As Task(Of SqliteDataReader)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync behavior" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -670,14 +790,19 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync (System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync cancellationToken" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync cancellationToken" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync cancellationToken" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -701,14 +826,19 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync (System.Data.CommandBehavior behavior, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync(valuetype System.Data.CommandBehavior behavior, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -735,14 +865,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ExecuteScalar() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ExecuteScalar () As Object" />
-      <MemberSignature Language="F#" Value="override this.ExecuteScalar : unit -&gt; obj" Usage="sqliteCommand.ExecuteScalar " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ExecuteScalar : unit -&gt; obj" Usage="sqliteCommand.ExecuteScalar " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ExecuteScalar : unit -&gt; obj&#xA;override this.ExecuteScalar : unit -&gt; obj" Usage="sqliteCommand.ExecuteScalar " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -768,8 +903,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -788,14 +928,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Prepare() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.Prepare" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Prepare ()" />
-      <MemberSignature Language="F#" Value="override this.Prepare : unit -&gt; unit" Usage="sqliteCommand.Prepare " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.Prepare : unit -&gt; unit" Usage="sqliteCommand.Prepare " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member Prepare : unit -&gt; unit&#xA;override this.Prepare : unit -&gt; unit" Usage="sqliteCommand.Prepare " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -819,8 +964,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -844,8 +994,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
