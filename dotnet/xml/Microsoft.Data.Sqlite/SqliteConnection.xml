@@ -7,8 +7,13 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <AssemblyVersion>2.1.11.0</AssemblyVersion>
+    <AssemblyVersion>2.2.6.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -31,8 +36,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -53,8 +63,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -78,13 +93,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="Microsoft.Data.Sqlite.SqliteConnection" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="destination" Type="Microsoft.Data.Sqlite.SqliteConnection" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <param name="destination">The destination of the backup.</param>
@@ -103,15 +120,17 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="Microsoft.Data.Sqlite.SqliteConnection" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="destinationName" Type="System.String" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="sourceName" Type="System.String" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="destination" Type="Microsoft.Data.Sqlite.SqliteConnection" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="destinationName" Type="System.String" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="sourceName" Type="System.String" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <param name="destination">The destination of the backup.</param>
@@ -127,14 +146,19 @@
       <MemberSignature Language="C#" Value="protected override System.Data.Common.DbTransaction BeginDbTransaction (System.Data.IsolationLevel isolationLevel);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbTransaction BeginDbTransaction(valuetype System.Data.IsolationLevel isolationLevel) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(System.Data.IsolationLevel)" />
-      <MemberSignature Language="F#" Value="override this.BeginDbTransaction : System.Data.IsolationLevel -&gt; System.Data.Common.DbTransaction" Usage="sqliteConnection.BeginDbTransaction isolationLevel" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.BeginDbTransaction : System.Data.IsolationLevel -&gt; System.Data.Common.DbTransaction" Usage="sqliteConnection.BeginDbTransaction isolationLevel" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member BeginDbTransaction : System.Data.IsolationLevel -&gt; System.Data.Common.DbTransaction&#xA;override this.BeginDbTransaction : System.Data.IsolationLevel -&gt; System.Data.Common.DbTransaction" Usage="sqliteConnection.BeginDbTransaction isolationLevel" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -157,14 +181,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteTransaction BeginTransaction() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginTransaction () As SqliteTransaction" />
-      <MemberSignature Language="F#" Value="override this.BeginTransaction : unit -&gt; Microsoft.Data.Sqlite.SqliteTransaction" Usage="sqliteConnection.BeginTransaction " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.BeginTransaction : unit -&gt; Microsoft.Data.Sqlite.SqliteTransaction" Usage="sqliteConnection.BeginTransaction " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member BeginTransaction : unit -&gt; Microsoft.Data.Sqlite.SqliteTransaction&#xA;override this.BeginTransaction : unit -&gt; Microsoft.Data.Sqlite.SqliteTransaction" Usage="sqliteConnection.BeginTransaction " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -183,14 +212,19 @@
       <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteTransaction BeginTransaction (System.Data.IsolationLevel isolationLevel);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteTransaction BeginTransaction(valuetype System.Data.IsolationLevel isolationLevel) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(System.Data.IsolationLevel)" />
-      <MemberSignature Language="F#" Value="override this.BeginTransaction : System.Data.IsolationLevel -&gt; Microsoft.Data.Sqlite.SqliteTransaction" Usage="sqliteConnection.BeginTransaction isolationLevel" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.BeginTransaction : System.Data.IsolationLevel -&gt; Microsoft.Data.Sqlite.SqliteTransaction" Usage="sqliteConnection.BeginTransaction isolationLevel" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member BeginTransaction : System.Data.IsolationLevel -&gt; Microsoft.Data.Sqlite.SqliteTransaction&#xA;override this.BeginTransaction : System.Data.IsolationLevel -&gt; Microsoft.Data.Sqlite.SqliteTransaction" Usage="sqliteConnection.BeginTransaction isolationLevel" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -213,14 +247,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ChangeDatabase(string databaseName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.ChangeDatabase(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ChangeDatabase (databaseName As String)" />
-      <MemberSignature Language="F#" Value="override this.ChangeDatabase : string -&gt; unit" Usage="sqliteConnection.ChangeDatabase databaseName" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.ChangeDatabase : string -&gt; unit" Usage="sqliteConnection.ChangeDatabase databaseName" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member ChangeDatabase : string -&gt; unit&#xA;override this.ChangeDatabase : string -&gt; unit" Usage="sqliteConnection.ChangeDatabase databaseName" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -243,14 +282,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Close() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.Close" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Close ()" />
-      <MemberSignature Language="F#" Value="override this.Close : unit -&gt; unit" Usage="sqliteConnection.Close " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.Close : unit -&gt; unit" Usage="sqliteConnection.Close " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit&#xA;override this.Close : unit -&gt; unit" Usage="sqliteConnection.Close " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -274,8 +318,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -299,6 +348,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -308,9 +359,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,System.Object[],TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,System.Object[],TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
@@ -332,6 +383,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -341,9 +394,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
@@ -365,6 +418,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -374,10 +429,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,System.Object[],TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,System.Object[],TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
@@ -400,6 +455,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -409,10 +466,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
@@ -435,6 +492,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -445,9 +504,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -470,6 +529,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -480,10 +541,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -507,6 +568,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -517,11 +580,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,System.Object[],TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,System.Object[],TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
@@ -549,6 +612,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -559,11 +624,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
@@ -591,6 +656,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -602,9 +669,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -628,6 +695,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -639,10 +708,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -667,6 +736,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -678,11 +749,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -711,6 +782,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -723,9 +796,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -750,6 +823,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -762,10 +837,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -791,6 +866,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -803,11 +880,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -837,6 +914,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -850,9 +929,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -878,6 +957,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -891,10 +972,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -921,6 +1002,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -934,11 +1017,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -969,6 +1052,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -983,9 +1068,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1012,6 +1097,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1026,10 +1113,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1057,6 +1144,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1071,11 +1160,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1107,6 +1196,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1122,9 +1213,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1152,6 +1243,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1167,10 +1260,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1199,6 +1292,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1214,11 +1309,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1251,6 +1346,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1267,9 +1364,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1298,6 +1395,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1314,10 +1413,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1347,6 +1446,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1363,11 +1464,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1401,6 +1502,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1418,9 +1521,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1450,6 +1553,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1467,10 +1572,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1501,6 +1606,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1518,11 +1625,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1557,6 +1664,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1575,9 +1684,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1608,6 +1717,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1626,10 +1737,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1661,6 +1772,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1679,11 +1792,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1719,6 +1832,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1738,9 +1853,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1772,6 +1887,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1791,10 +1908,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1827,6 +1944,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1846,11 +1965,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1887,6 +2006,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1907,9 +2028,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1942,6 +2063,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1962,10 +2085,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -1999,6 +2122,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2019,11 +2144,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2061,6 +2186,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2082,9 +2209,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2118,6 +2245,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2139,10 +2268,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2177,6 +2306,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2198,11 +2329,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2241,6 +2372,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2263,9 +2396,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2300,6 +2433,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2322,10 +2457,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2361,6 +2496,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2383,11 +2520,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2427,6 +2564,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2450,9 +2589,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2488,6 +2627,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2511,10 +2652,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2551,6 +2692,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2574,11 +2717,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2619,6 +2762,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2643,9 +2788,9 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TAccumulate&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2682,6 +2827,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2706,10 +2853,10 @@
         <TypeParameter Name="TAccumulate" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2747,6 +2894,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2771,11 +2920,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2817,6 +2966,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2842,11 +2993,11 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="seed" Type="TAccumulate" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="func" Type="System.Func&lt;TAccumulate,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TAccumulate&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="resultSelector" Type="System.Func&lt;TAccumulate,TResult&gt;" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="4" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -2890,14 +3041,17 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
-        <Parameter Name="comparison" Type="System.Comparison&lt;System.String&gt;" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="comparison" Type="System.Comparison&lt;System.String&gt;" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <param name="name">Name of the collation.</param>
@@ -2918,6 +3072,9 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2927,9 +3084,9 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="T" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
-        <Parameter Name="comparison" Type="System.Func&lt;T,System.String,System.String,System.Int32&gt;" Index="2" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="T" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="comparison" Type="System.Func&lt;T,System.String,System.String,System.Int32&gt;" Index="2" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the state object.</typeparam>
@@ -2947,14 +3104,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteCommand CreateCommand() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.CreateCommand" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateCommand () As SqliteCommand" />
-      <MemberSignature Language="F#" Value="override this.CreateCommand : unit -&gt; Microsoft.Data.Sqlite.SqliteCommand" Usage="sqliteConnection.CreateCommand " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.CreateCommand : unit -&gt; Microsoft.Data.Sqlite.SqliteCommand" Usage="sqliteConnection.CreateCommand " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member CreateCommand : unit -&gt; Microsoft.Data.Sqlite.SqliteCommand&#xA;override this.CreateCommand : unit -&gt; Microsoft.Data.Sqlite.SqliteCommand" Usage="sqliteConnection.CreateCommand " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2977,14 +3139,19 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbCommand CreateDbCommand() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.CreateDbCommand" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDbCommand () As DbCommand" />
-      <MemberSignature Language="F#" Value="override this.CreateDbCommand : unit -&gt; System.Data.Common.DbCommand" Usage="sqliteConnection.CreateDbCommand " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.CreateDbCommand : unit -&gt; System.Data.Common.DbCommand" Usage="sqliteConnection.CreateDbCommand " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member CreateDbCommand : unit -&gt; System.Data.Common.DbCommand&#xA;override this.CreateDbCommand : unit -&gt; System.Data.Common.DbCommand" Usage="sqliteConnection.CreateDbCommand " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3008,6 +3175,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3017,9 +3186,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;System.Object[],TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;System.Object[],TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TResult">The type of the resulting value.</typeparam>
@@ -3041,6 +3210,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3050,9 +3221,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TResult">The type of the resulting value.</typeparam>
@@ -3074,6 +3245,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3084,9 +3257,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3109,6 +3282,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3119,10 +3294,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,System.Object[],TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,System.Object[],TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3146,6 +3321,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3156,10 +3333,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3183,6 +3360,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3194,9 +3373,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3220,6 +3399,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3231,10 +3412,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3259,6 +3440,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3271,9 +3454,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3298,6 +3481,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3310,10 +3495,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3339,6 +3524,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3352,9 +3539,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3380,6 +3567,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3393,10 +3582,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3423,6 +3612,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3437,9 +3628,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3466,6 +3657,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3480,10 +3673,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3511,6 +3704,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3526,9 +3721,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3556,6 +3751,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3571,10 +3768,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3603,6 +3800,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3619,9 +3818,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3650,6 +3849,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3666,10 +3867,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3699,6 +3900,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3716,9 +3919,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3748,6 +3951,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3765,10 +3970,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3799,6 +4004,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3817,9 +4024,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3850,6 +4057,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3868,10 +4077,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -3903,6 +4112,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3922,9 +4133,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -3956,6 +4167,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -3975,10 +4188,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -4011,6 +4224,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4031,9 +4246,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -4066,6 +4281,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4086,10 +4303,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -4123,6 +4340,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4144,9 +4363,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -4180,6 +4399,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4201,10 +4422,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -4239,6 +4460,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4261,9 +4484,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -4298,6 +4521,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4320,10 +4545,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -4359,6 +4584,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4382,9 +4609,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -4420,6 +4647,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4443,10 +4672,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -4483,6 +4712,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4507,9 +4738,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -4546,6 +4777,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4570,10 +4803,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -4611,6 +4844,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4636,9 +4871,9 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,TResult&gt;" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter of the function.</typeparam>
@@ -4676,6 +4911,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4701,10 +4938,10 @@
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0" />
-        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="state" Type="TState" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="function" Type="System.Func&lt;TState,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,TResult&gt;" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="isDeterministic" Type="System.Boolean" Index="3" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <typeparam name="TState">The type of the state.</typeparam>
@@ -4744,8 +4981,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4769,8 +5011,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4793,6 +5040,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4815,6 +5064,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4835,14 +5086,19 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
-      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteConnection.Dispose disposing" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteConnection.Dispose disposing" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteConnection.Dispose disposing" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4871,8 +5127,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4895,16 +5156,21 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteConnection.Handle" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Handle As IntPtr" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0" />
       <MemberSignature Language="F#" Value="member this.Handle : nativeint" Usage="Microsoft.Data.Sqlite.SqliteConnection.Handle" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0" />
-      <MemberSignature Language="C#" Value="public virtual SQLitePCL.sqlite3 Handle { get; }" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
-      <MemberSignature Language="ILAsm" Value=".property instance class SQLitePCL.sqlite3 Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Handle As sqlite3" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
-      <MemberSignature Language="F#" Value="member this.Handle : SQLitePCL.sqlite3" Usage="Microsoft.Data.Sqlite.SqliteConnection.Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0" />
+      <MemberSignature Language="C#" Value="public virtual SQLitePCL.sqlite3 Handle { get; }" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0" />
+      <MemberSignature Language="ILAsm" Value=".property instance class SQLitePCL.sqlite3 Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Handle As sqlite3" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="member this.Handle : SQLitePCL.sqlite3" Usage="Microsoft.Data.Sqlite.SqliteConnection.Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4950,14 +5216,19 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Open() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnection.Open" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Open ()" />
-      <MemberSignature Language="F#" Value="override this.Open : unit -&gt; unit" Usage="sqliteConnection.Open " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="override this.Open : unit -&gt; unit" Usage="sqliteConnection.Open " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       <MemberSignature Language="F#" Value="abstract member Open : unit -&gt; unit&#xA;override this.Open : unit -&gt; unit" Usage="sqliteConnection.Open " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -4983,8 +5254,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5008,8 +5284,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -5033,8 +5314,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
