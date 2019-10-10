@@ -1,4 +1,4 @@
-﻿<Type Name="SqliteEngine" FullName="Microsoft.Data.Sqlite.Internal.SqliteEngine">
+<Type Name="SqliteEngine" FullName="Microsoft.Data.Sqlite.Internal.SqliteEngine">
   <TypeSignature Language="C#" Value="public static class SqliteEngine" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SqliteEngine extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.Internal.SqliteEngine" />

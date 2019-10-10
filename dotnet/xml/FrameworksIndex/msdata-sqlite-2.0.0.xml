@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="msdata-sqlite-2.0.0">
+  <Assemblies>
+    <Assembly Name="Microsoft.Data.Sqlite" Version="2.0.0.0" />
+  </Assemblies>
   <Namespace Name="Microsoft.Data.Sqlite">
     <Type Name="Microsoft.Data.Sqlite.SqliteCacheMode" Id="T:Microsoft.Data.Sqlite.SqliteCacheMode">
       <Member Id="F:Microsoft.Data.Sqlite.SqliteCacheMode.Default" />

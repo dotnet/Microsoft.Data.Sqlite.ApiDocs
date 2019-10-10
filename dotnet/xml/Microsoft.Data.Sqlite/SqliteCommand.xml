@@ -1,4 +1,4 @@
-﻿<Type Name="SqliteCommand" FullName="Microsoft.Data.Sqlite.SqliteCommand">
+<Type Name="SqliteCommand" FullName="Microsoft.Data.Sqlite.SqliteCommand">
   <TypeSignature Language="C#" Value="public class SqliteCommand : System.Data.Common.DbCommand" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SqliteCommand extends System.Data.Common.DbCommand" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.SqliteCommand" />
@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbCommand</BaseTypeName>
@@ -16,7 +17,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            Represents a SQL statement to be executed against a SQLite database.
+                Represents a SQL statement to be executed against a SQLite database.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -32,11 +33,12 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -53,6 +55,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" />
@@ -60,7 +63,7 @@
       <Docs>
         <param name="commandText">The SQL to execute against the database.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,6 +80,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" />
@@ -86,7 +90,7 @@
         <param name="commandText">The SQL to execute against the database.</param>
         <param name="connection">The connection used by the command.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -103,6 +107,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" />
@@ -114,7 +119,7 @@
         <param name="connection">The connection used by the command.</param>
         <param name="transaction">The transaction within which the command executes.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteCommand" /> class.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -124,13 +129,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Cancel() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.Cancel" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Cancel ()" />
-      <MemberSignature Language="F#" Value="override this.Cancel : unit -&gt; unit" Usage="sqliteCommand.Cancel " />
+      <MemberSignature Language="F#" Value="override this.Cancel : unit -&gt; unit" Usage="sqliteCommand.Cancel " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member Cancel : unit -&gt; unit&#xA;override this.Cancel : unit -&gt; unit" Usage="sqliteCommand.Cancel " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -138,7 +145,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Attempts to cancel the execution of the command. Does nothing.
+                Attempts to cancel the execution of the command. Does nothing.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,13 +162,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the SQL to execute against the database.
+                Gets or sets the SQL to execute against the database.
             </summary>
         <value>The SQL to execute against the database.</value>
         <remarks>To be added.</remarks>
@@ -179,17 +187,19 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the number of seconds to wait before terminating the attempt to execute the command. Defaults to 30.
+                Gets or sets the number of seconds to wait before terminating the attempt to execute the command.
+                Defaults to 30. A value of 0 means no timeout.
             </summary>
         <value>The number of seconds to wait before terminating the attempt to execute the command.</value>
         <remarks>
-            The timeout is used when the command is waiting to obtain a lock on the table.
+                The timeout is used when the command is waiting to obtain a lock on the table.
             </remarks>
       </Docs>
     </Member>
@@ -205,14 +215,15 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.CommandType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets a value indicating how <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> is interpreted. Only
-            <see cref="F:System.Data.CommandType.Text" /> is supported.
+                Gets or sets a value indicating how <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> is interpreted. Only
+                <see cref="F:System.Data.CommandType.Text" /> is supported.
             </summary>
         <value>A value indicating how <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> is interpreted.</value>
         <remarks>To be added.</remarks>
@@ -230,13 +241,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteConnection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the connection used by the command.
+                Gets or sets the connection used by the command.
             </summary>
         <value>The connection used by the command.</value>
         <remarks>To be added.</remarks>
@@ -247,13 +259,15 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbParameter CreateDbParameter() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.CreateDbParameter" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateDbParameter () As DbParameter" />
-      <MemberSignature Language="F#" Value="override this.CreateDbParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteCommand.CreateDbParameter " />
+      <MemberSignature Language="F#" Value="override this.CreateDbParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteCommand.CreateDbParameter " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member CreateDbParameter : unit -&gt; System.Data.Common.DbParameter&#xA;override this.CreateDbParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteCommand.CreateDbParameter " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
@@ -261,7 +275,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Creates a new parameter.
+                Creates a new parameter.
             </summary>
         <returns>The new parameter.</returns>
         <remarks>To be added.</remarks>
@@ -272,13 +286,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteParameter CreateParameter() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.CreateParameter" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateParameter () As SqliteParameter" />
-      <MemberSignature Language="F#" Value="override this.CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteCommand.CreateParameter " />
+      <MemberSignature Language="F#" Value="override this.CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteCommand.CreateParameter " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter&#xA;override this.CreateParameter : unit -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteCommand.CreateParameter " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -286,9 +302,31 @@
       <Parameters />
       <Docs>
         <summary>
-            Creates a new parameter.
+                Creates a new parameter.
             </summary>
         <returns>The new parameter.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataReader">
+      <MemberSignature Language="C#" Value="protected internal virtual Microsoft.Data.Sqlite.SqliteDataReader DataReader { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Data.Sqlite.SqliteDataReader DataReader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteCommand.DataReader" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Property DataReader As SqliteDataReader" />
+      <MemberSignature Language="F#" Value="member this.DataReader : Microsoft.Data.Sqlite.SqliteDataReader with get, set" Usage="Microsoft.Data.Sqlite.SqliteCommand.DataReader" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Data.Sqlite.SqliteDataReader</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+                Gets or sets the data reader currently being used by the command, or null if none.
+            </summary>
+        <value>The data reader currently being used by the command.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -304,13 +342,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the connection used by the command. Must be a <see cref="T:Microsoft.Data.Sqlite.SqliteConnection" />.
+                Gets or sets the connection used by the command. Must be a <see cref="T:Microsoft.Data.Sqlite.SqliteConnection" />.
             </summary>
         <value>The connection used by the command.</value>
         <remarks>To be added.</remarks>
@@ -328,13 +367,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameterCollection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the collection of parameters used by the command.
+                Gets the collection of parameters used by the command.
             </summary>
         <value>The collection of parameters used by the command.</value>
         <remarks>To be added.</remarks>
@@ -352,13 +392,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbTransaction</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the transaction within which the command executes. Must be a <see cref="T:Microsoft.Data.Sqlite.SqliteTransaction" />.
+                Gets or sets the transaction within which the command executes. Must be a <see cref="T:Microsoft.Data.Sqlite.SqliteTransaction" />.
             </summary>
         <value>The transaction within which the command executes.</value>
         <remarks>To be added.</remarks>
@@ -376,15 +417,43 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets a value indicating whether the command should be visible in an interface control.
+                Gets or sets a value indicating whether the command should be visible in an interface control.
             </summary>
         <value>A value indicating whether the command should be visible in an interface control.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteCommand.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">
+                true to release managed and unmanaged resources; false to release only unmanaged resources.
+            </param>
+        <summary>
+                Releases any resources used by the connection and closes it.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -393,13 +462,15 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbDataReader ExecuteDbDataReader(valuetype System.Data.CommandBehavior behavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(System.Data.CommandBehavior)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ExecuteDbDataReader (behavior As CommandBehavior) As DbDataReader" />
-      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader" Usage="sqliteCommand.ExecuteDbDataReader behavior" />
+      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader" Usage="sqliteCommand.ExecuteDbDataReader behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader&#xA;override this.ExecuteDbDataReader : System.Data.CommandBehavior -&gt; System.Data.Common.DbDataReader" Usage="sqliteCommand.ExecuteDbDataReader behavior" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbDataReader</ReturnType>
@@ -410,7 +481,7 @@
       <Docs>
         <param name="behavior">A description of query's results and its effect on the database.</param>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns a data reader.
             </summary>
         <returns>The data reader.</returns>
         <remarks>To be added.</remarks>
@@ -420,19 +491,16 @@
       <MemberSignature Language="C#" Value="protected override System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt; ExecuteDbDataReaderAsync (System.Data.CommandBehavior behavior, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Threading.Tasks.Task`1&lt;class System.Data.Common.DbDataReader&gt; ExecuteDbDataReaderAsync(valuetype System.Data.CommandBehavior behavior, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;" Usage="sqliteCommand.ExecuteDbDataReaderAsync (behavior, cancellationToken)" />
+      <MemberSignature Language="F#" Value="override this.ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;" Usage="sqliteCommand.ExecuteDbDataReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;&#xA;override this.ExecuteDbDataReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;" Usage="sqliteCommand.ExecuteDbDataReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Data.Sqlite.SqliteCommand/&lt;ExecuteDbDataReaderAsync&gt;d__52))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;</ReturnType>
       </ReturnValue>
@@ -444,7 +512,7 @@
         <param name="behavior">A description of query's results and its effect on the database.</param>
         <param name="cancellationToken">The token to monitor for cancellation requests.</param>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
             </summary>
         <returns>A task representing the asynchronous operation.</returns>
         <remarks>To be added.</remarks>
@@ -455,13 +523,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 ExecuteNonQuery() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ExecuteNonQuery () As Integer" />
-      <MemberSignature Language="F#" Value="override this.ExecuteNonQuery : unit -&gt; int" Usage="sqliteCommand.ExecuteNonQuery " />
+      <MemberSignature Language="F#" Value="override this.ExecuteNonQuery : unit -&gt; int" Usage="sqliteCommand.ExecuteNonQuery " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteNonQuery : unit -&gt; int&#xA;override this.ExecuteNonQuery : unit -&gt; int" Usage="sqliteCommand.ExecuteNonQuery " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -469,7 +539,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database.
             </summary>
         <returns>The number of rows inserted, updated, or deleted. -1 for SELECT statements.</returns>
         <remarks>To be added.</remarks>
@@ -481,13 +551,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteDataReader ExecuteReader() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReader () As SqliteDataReader" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader " />
+      <MemberSignature Language="F#" Value="override this.ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader&#xA;override this.ExecuteReader : unit -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteDataReader</ReturnType>
@@ -495,7 +567,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns a data reader.
             </summary>
         <returns>The data reader.</returns>
         <remarks>To be added.</remarks>
@@ -507,13 +579,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteDataReader ExecuteReader(valuetype System.Data.CommandBehavior behavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(System.Data.CommandBehavior)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReader (behavior As CommandBehavior) As SqliteDataReader" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader behavior" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader&#xA;override this.ExecuteReader : System.Data.CommandBehavior -&gt; Microsoft.Data.Sqlite.SqliteDataReader" Usage="sqliteCommand.ExecuteReader behavior" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteDataReader</ReturnType>
@@ -522,13 +596,9 @@
         <Parameter Name="behavior" Type="System.Data.CommandBehavior" />
       </Parameters>
       <Docs>
-        <param name="behavior">
-            A description of the results of the query and its effect on the database.
-            <para>Only <see cref="F:System.Data.CommandBehavior.Default" />, <see cref="F:System.Data.CommandBehavior.SequentialAccess" />,
-            <see cref="F:System.Data.CommandBehavior.SingleResult" />, <see cref="F:System.Data.CommandBehavior.SingleRow" />, and
-            <see cref="F:System.Data.CommandBehavior.CloseConnection" /> are supported.</para></param>
+        <param name="behavior">A description of the results of the query and its effect on the database.</param>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns a data reader.
             </summary>
         <returns>The data reader.</returns>
         <remarks>To be added.</remarks>
@@ -540,13 +610,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReaderAsync () As Task(Of SqliteDataReader)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync " />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
@@ -554,11 +626,11 @@
       <Parameters />
       <Docs>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
             </summary>
         <returns>A task representing the asynchronous operation.</returns>
         <remarks>
-            SQLite does not support asynchronous execution. Use write-ahead logging instead.
+                SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
       </Docs>
     </Member>
@@ -567,13 +639,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync(valuetype System.Data.CommandBehavior behavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ExecuteReaderAsync (behavior As CommandBehavior) As Task(Of SqliteDataReader)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync behavior" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync behavior" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : System.Data.CommandBehavior -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync behavior" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
@@ -584,11 +658,11 @@
       <Docs>
         <param name="behavior">A description of query's results and its effect on the database.</param>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
             </summary>
         <returns>A task representing the asynchronous operation.</returns>
         <remarks>
-            SQLite does not support asynchronous execution. Use write-ahead logging instead.
+                SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
       </Docs>
     </Member>
@@ -596,13 +670,15 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync (System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync cancellationToken" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync cancellationToken" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync cancellationToken" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
@@ -613,11 +689,11 @@
       <Docs>
         <param name="cancellationToken">The token to monitor for cancellation requests.</param>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
             </summary>
         <returns>A task representing the asynchronous operation.</returns>
         <remarks>
-            SQLite does not support asynchronous execution. Use write-ahead logging instead.
+                SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
       </Docs>
     </Member>
@@ -625,13 +701,15 @@
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync (System.Data.CommandBehavior behavior, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Data.Sqlite.SqliteDataReader&gt; ExecuteReaderAsync(valuetype System.Data.CommandBehavior behavior, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync (behavior, cancellationToken)" />
+      <MemberSignature Language="F#" Value="override this.ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;&#xA;override this.ExecuteReaderAsync : System.Data.CommandBehavior * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;" Usage="sqliteCommand.ExecuteReaderAsync (behavior, cancellationToken)" FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
@@ -644,11 +722,11 @@
         <param name="behavior">A description of query's results and its effect on the database.</param>
         <param name="cancellationToken">The token to monitor for cancellation requests.</param>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> asynchronously against the database and returns a data reader.
             </summary>
         <returns>A task representing the asynchronous operation.</returns>
         <remarks>
-            SQLite does not support asynchronous execution. Use write-ahead logging instead.
+                SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
       </Docs>
     </Member>
@@ -657,13 +735,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance object ExecuteScalar() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ExecuteScalar () As Object" />
-      <MemberSignature Language="F#" Value="override this.ExecuteScalar : unit -&gt; obj" Usage="sqliteCommand.ExecuteScalar " />
+      <MemberSignature Language="F#" Value="override this.ExecuteScalar : unit -&gt; obj" Usage="sqliteCommand.ExecuteScalar " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ExecuteScalar : unit -&gt; obj&#xA;override this.ExecuteScalar : unit -&gt; obj" Usage="sqliteCommand.ExecuteScalar " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -671,7 +751,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns the result.
+                Executes the <see cref="P:Microsoft.Data.Sqlite.SqliteCommand.CommandText" /> against the database and returns the result.
             </summary>
         <returns>The first column of the first row of the results, or null if no results.</returns>
         <remarks>To be added.</remarks>
@@ -690,13 +770,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameterCollection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the collection of parameters used by the command.
+                Gets the collection of parameters used by the command.
             </summary>
         <value>The collection of parameters used by the command.</value>
         <remarks>To be added.</remarks>
@@ -707,13 +788,15 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Prepare() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.Prepare" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Prepare ()" />
-      <MemberSignature Language="F#" Value="override this.Prepare : unit -&gt; unit" Usage="sqliteCommand.Prepare " />
+      <MemberSignature Language="F#" Value="override this.Prepare : unit -&gt; unit" Usage="sqliteCommand.Prepare " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0" />
+      <MemberSignature Language="F#" Value="abstract member Prepare : unit -&gt; unit&#xA;override this.Prepare : unit -&gt; unit" Usage="sqliteCommand.Prepare " FrameworkAlternate="msdata-sqlite-3.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -721,7 +804,7 @@
       <Parameters />
       <Docs>
         <summary>
-            Creates a prepared version of the command on the database. This has no effect.
+                Creates a prepared version of the command on the database.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -738,13 +821,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteTransaction</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the transaction within which the command executes.
+                Gets or sets the transaction within which the command executes.
             </summary>
         <value>The transaction within which the command executes.</value>
         <remarks>To be added.</remarks>
@@ -762,13 +846,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.UpdateRowSource</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets a value indicating how the results are applied to the row being updated.
+                Gets or sets a value indicating how the results are applied to the row being updated.
             </summary>
         <value>A value indicating how the results are applied to the row being updated.</value>
         <remarks>To be added.</remarks>

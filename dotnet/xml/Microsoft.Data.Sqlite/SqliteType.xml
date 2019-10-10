@@ -1,4 +1,4 @@
-﻿<Type Name="SqliteType" FullName="Microsoft.Data.Sqlite.SqliteType">
+<Type Name="SqliteType" FullName="Microsoft.Data.Sqlite.SqliteType">
   <TypeSignature Language="C#" Value="public enum SqliteType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SqliteType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.SqliteType" />
@@ -9,13 +9,14 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
     <summary>
-            Represents the type affinities used by columns in SQLite tables.
+                Represents the type affinities used by columns in SQLite tables.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -32,6 +33,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteType</ReturnType>
@@ -39,7 +41,7 @@
       <MemberValue>4</MemberValue>
       <Docs>
         <summary>
-            A blob of data.
+                A blob of data.
             </summary>
       </Docs>
     </Member>
@@ -55,6 +57,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteType</ReturnType>
@@ -62,7 +65,7 @@
       <MemberValue>1</MemberValue>
       <Docs>
         <summary>
-            A signed integer.
+                A signed integer.
             </summary>
       </Docs>
     </Member>
@@ -78,6 +81,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteType</ReturnType>
@@ -85,7 +89,7 @@
       <MemberValue>2</MemberValue>
       <Docs>
         <summary>
-            A floating point value.
+                A floating point value.
             </summary>
       </Docs>
     </Member>
@@ -101,6 +105,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteType</ReturnType>
@@ -108,7 +113,7 @@
       <MemberValue>3</MemberValue>
       <Docs>
         <summary>
-            A text string.
+                A text string.
             </summary>
       </Docs>
     </Member>
