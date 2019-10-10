@@ -1,0 +1,366 @@
+<Type Name="SqliteBlob" FullName="Microsoft.Data.Sqlite.SqliteBlob">
+  <TypeSignature Language="C#" Value="public class SqliteBlob : System.IO.Stream" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SqliteBlob extends System.IO.Stream" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.SqliteBlob" />
+  <TypeSignature Language="VB.NET" Value="Public Class SqliteBlob&#xA;Inherits Stream" />
+  <TypeSignature Language="F#" Value="type SqliteBlob = class&#xA;    inherit Stream" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.IO.Stream</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+                Provides methods to access the contents of a blob.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SqliteBlob (Microsoft.Data.Sqlite.SqliteConnection connection, string tableName, string columnName, long rowid, bool readOnly = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Data.Sqlite.SqliteConnection connection, string tableName, string columnName, int64 rowid, bool readOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.#ctor(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String,System.Int64,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connection As SqliteConnection, tableName As String, columnName As String, rowid As Long, Optional readOnly As Boolean = false)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteBlob : Microsoft.Data.Sqlite.SqliteConnection * string * string * int64 * bool -&gt; Microsoft.Data.Sqlite.SqliteBlob" Usage="new Microsoft.Data.Sqlite.SqliteBlob (connection, tableName, columnName, rowid, readOnly)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="connection" Type="Microsoft.Data.Sqlite.SqliteConnection" />
+        <Parameter Name="tableName" Type="System.String" />
+        <Parameter Name="columnName" Type="System.String" />
+        <Parameter Name="rowid" Type="System.Int64" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="connection">An open connection to the database.</param>
+        <param name="tableName">The name of table containing the blob.</param>
+        <param name="columnName">The name of the column containing the blob.</param>
+        <param name="rowid">The rowid of the row containing the blob.</param>
+        <param name="readOnly">A value indicating whether the blob is read-only.</param>
+        <summary>
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteBlob" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SqliteBlob (Microsoft.Data.Sqlite.SqliteConnection connection, string databaseName, string tableName, string columnName, long rowid, bool readOnly = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Data.Sqlite.SqliteConnection connection, string databaseName, string tableName, string columnName, int64 rowid, bool readOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.#ctor(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String,System.String,System.Int64,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connection As SqliteConnection, databaseName As String, tableName As String, columnName As String, rowid As Long, Optional readOnly As Boolean = false)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteBlob : Microsoft.Data.Sqlite.SqliteConnection * string * string * string * int64 * bool -&gt; Microsoft.Data.Sqlite.SqliteBlob" Usage="new Microsoft.Data.Sqlite.SqliteBlob (connection, databaseName, tableName, columnName, rowid, readOnly)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="connection" Type="Microsoft.Data.Sqlite.SqliteConnection" />
+        <Parameter Name="databaseName" Type="System.String" />
+        <Parameter Name="tableName" Type="System.String" />
+        <Parameter Name="columnName" Type="System.String" />
+        <Parameter Name="rowid" Type="System.Int64" />
+        <Parameter Name="readOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="connection">An open connection to the database.</param>
+        <param name="databaseName">The name of the attached database containing the blob.</param>
+        <param name="tableName">The name of table containing the blob.</param>
+        <param name="columnName">The name of the column containing the blob.</param>
+        <param name="rowid">The rowid of the row containing the blob.</param>
+        <param name="readOnly">A value indicating whether the blob is read-only.</param>
+        <summary>
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteBlob" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanRead">
+      <MemberSignature Language="C#" Value="public override bool CanRead { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteBlob.CanRead" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property CanRead As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanRead : bool" Usage="Microsoft.Data.Sqlite.SqliteBlob.CanRead" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+                Gets a value indicating whether the current stream supports reading.
+                Always true.
+            </summary>
+        <value>true if the stream supports reading; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanSeek">
+      <MemberSignature Language="C#" Value="public override bool CanSeek { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanSeek" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteBlob.CanSeek" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property CanSeek As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanSeek : bool" Usage="Microsoft.Data.Sqlite.SqliteBlob.CanSeek" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+                Gets a value indicating whether the current stream supports seeking.
+                Always true.
+            </summary>
+        <value>true if the stream supports seeking; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanWrite">
+      <MemberSignature Language="C#" Value="public override bool CanWrite { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanWrite" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteBlob.CanWrite" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property CanWrite As Boolean" />
+      <MemberSignature Language="F#" Value="member this.CanWrite : bool" Usage="Microsoft.Data.Sqlite.SqliteBlob.CanWrite" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+                Gets a value indicating whether the current stream supports writing.
+            </summary>
+        <value>true if the stream supports writing; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteBlob.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">
+                true to release managed and unmanaged resources; false to release only unmanaged resources.
+            </param>
+        <summary>
+                Releases any resources used by the blob and closes it.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="public override void Flush ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Flush() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.Flush" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Flush ()" />
+      <MemberSignature Language="F#" Value="override this.Flush : unit -&gt; unit" Usage="sqliteBlob.Flush " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+                Clears all buffers for this stream and causes any buffered data to be written to the underlying device.
+                Does nothing.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public override long Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteBlob.Length" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Length As Long" />
+      <MemberSignature Language="F#" Value="member this.Length : int64" Usage="Microsoft.Data.Sqlite.SqliteBlob.Length" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+                Gets the length in bytes of the stream.
+            </summary>
+        <value>A long value representing the length of the stream in bytes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public override long Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteBlob.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property Position As Long" />
+      <MemberSignature Language="F#" Value="member this.Position : int64 with get, set" Usage="Microsoft.Data.Sqlite.SqliteBlob.Position" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+                Gets or sets the position within the current stream.
+            </summary>
+        <value>The current position within the stream.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public override int Read (byte[] buffer, int offset, int count);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 Read(unsigned int8[] buffer, int32 offset, int32 count) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.Read(System.Byte[],System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Read (buffer As Byte(), offset As Integer, count As Integer) As Integer" />
+      <MemberSignature Language="F#" Value="override this.Read : byte[] * int * int -&gt; int" Usage="sqliteBlob.Read (buffer, offset, count)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="buffer" Type="System.Byte[]" />
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="buffer">
+                An array of bytes. When this method returns, the buffer contains the specified byte array
+                with the values between offset and (offset + count - 1) replaced by the bytes read from the current source.
+            </param>
+        <param name="offset">The zero-based byte offset in buffer at which to begin storing the data read from the current stream.</param>
+        <param name="count">The maximum number of bytes to be read from the current stream.</param>
+        <summary>
+                Reads a sequence of bytes from the current stream and advances the position
+                within the stream by the number of bytes read.
+            </summary>
+        <returns>The total number of bytes read into the buffer.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Seek">
+      <MemberSignature Language="C#" Value="public override long Seek (long offset, System.IO.SeekOrigin origin);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int64 Seek(int64 offset, valuetype System.IO.SeekOrigin origin) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.Seek(System.Int64,System.IO.SeekOrigin)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Seek (offset As Long, origin As SeekOrigin) As Long" />
+      <MemberSignature Language="F#" Value="override this.Seek : int64 * System.IO.SeekOrigin -&gt; int64" Usage="sqliteBlob.Seek (offset, origin)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="offset" Type="System.Int64" />
+        <Parameter Name="origin" Type="System.IO.SeekOrigin" />
+      </Parameters>
+      <Docs>
+        <param name="offset">A byte offset relative to the origin parameter.</param>
+        <param name="origin">A value indicating the reference point used to obtain the new position.</param>
+        <summary>
+                Sets the position within the current stream.
+            </summary>
+        <returns>The new position within the current stream.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLength">
+      <MemberSignature Language="C#" Value="public override void SetLength (long value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void SetLength(int64 value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.SetLength(System.Int64)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SetLength (value As Long)" />
+      <MemberSignature Language="F#" Value="override this.SetLength : int64 -&gt; unit" Usage="sqliteBlob.SetLength value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Int64" />
+      </Parameters>
+      <Docs>
+        <param name="value">The desired length of the current stream in bytes.</param>
+        <summary>
+                Sets the length of the current stream. This is not supported by sqlite blobs.
+                Not supported.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NotSupportedException">Always.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="public override void Write (byte[] buffer, int offset, int count);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Write(unsigned int8[] buffer, int32 offset, int32 count) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteBlob.Write(System.Byte[],System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Write (buffer As Byte(), offset As Integer, count As Integer)" />
+      <MemberSignature Language="F#" Value="override this.Write : byte[] * int * int -&gt; unit" Usage="sqliteBlob.Write (buffer, offset, count)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="buffer" Type="System.Byte[]" />
+        <Parameter Name="offset" Type="System.Int32" />
+        <Parameter Name="count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="buffer">An array of bytes. This method copies count bytes from buffer to the current stream.</param>
+        <param name="offset">The zero-based byte offset in buffer at which to begin copying bytes to the current stream.</param>
+        <param name="count">The number of bytes to be written to the current stream.</param>
+        <summary>
+                Writes a sequence of bytes to the current stream and advances the current position
+                within this stream by the number of bytes written.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

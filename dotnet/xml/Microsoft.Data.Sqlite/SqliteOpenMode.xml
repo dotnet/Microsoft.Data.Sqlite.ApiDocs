@@ -1,4 +1,4 @@
-﻿<Type Name="SqliteOpenMode" FullName="Microsoft.Data.Sqlite.SqliteOpenMode">
+<Type Name="SqliteOpenMode" FullName="Microsoft.Data.Sqlite.SqliteOpenMode">
   <TypeSignature Language="C#" Value="public enum SqliteOpenMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SqliteOpenMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.SqliteOpenMode" />
@@ -9,13 +9,14 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
     <summary>
-            Represents the connection modes that can be used when opening a connection.
+                Represents the connection modes that can be used when opening a connection.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -32,6 +33,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteOpenMode</ReturnType>
@@ -39,7 +41,7 @@
       <MemberValue>3</MemberValue>
       <Docs>
         <summary>
-            Opens an in-memory database.
+                Opens an in-memory database.
             </summary>
       </Docs>
     </Member>
@@ -55,6 +57,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteOpenMode</ReturnType>
@@ -62,7 +65,7 @@
       <MemberValue>2</MemberValue>
       <Docs>
         <summary>
-            Opens the database in read-only mode.
+                Opens the database in read-only mode.
             </summary>
       </Docs>
     </Member>
@@ -78,6 +81,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteOpenMode</ReturnType>
@@ -85,7 +89,7 @@
       <MemberValue>1</MemberValue>
       <Docs>
         <summary>
-            Opens the database for reading and writing.
+                Opens the database for reading and writing.
             </summary>
       </Docs>
     </Member>
@@ -101,6 +105,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteOpenMode</ReturnType>
@@ -108,7 +113,7 @@
       <MemberValue>0</MemberValue>
       <Docs>
         <summary>
-            Opens the database for reading and writing, and creates it if it doesn't exist.
+                Opens the database for reading and writing, and creates it if it doesn't exist.
             </summary>
       </Docs>
     </Member>
