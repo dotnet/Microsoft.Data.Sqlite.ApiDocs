@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="msdata-sqlite-1.0.0">
+  <Assemblies>
+    <Assembly Name="Microsoft.Data.Sqlite" Version="1.0.1.0" />
+  </Assemblies>
   <Namespace Name="Microsoft.Data.Sqlite.Internal">
     <Type Name="Microsoft.Data.Sqlite.Internal.SqliteEngine" Id="T:Microsoft.Data.Sqlite.Internal.SqliteEngine">
       <Member Id="M:Microsoft.Data.Sqlite.Internal.SqliteEngine.UseWinSqlite3" />

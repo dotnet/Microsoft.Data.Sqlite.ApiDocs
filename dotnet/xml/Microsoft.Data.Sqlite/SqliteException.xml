@@ -1,4 +1,4 @@
-﻿<Type Name="SqliteException" FullName="Microsoft.Data.Sqlite.SqliteException">
+<Type Name="SqliteException" FullName="Microsoft.Data.Sqlite.SqliteException">
   <TypeSignature Language="C#" Value="public class SqliteException : System.Data.Common.DbException" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SqliteException extends System.Data.Common.DbException" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Data.Sqlite.SqliteException" />
@@ -7,8 +7,14 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <AssemblyVersion>2.1.11.0</AssemblyVersion>
+    <AssemblyVersion>2.2.6.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbException</BaseTypeName>
@@ -16,7 +22,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            Represents a SQLite error.
+                Represents a SQLite error.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -31,8 +37,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
@@ -42,7 +54,35 @@
         <param name="message">The message to display for the exception. Can be null.</param>
         <param name="errorCode">The SQLite error code.</param>
         <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteException" /> class.
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteException" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SqliteException (string message, int errorCode, int extendedErrorCode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, int32 errorCode, int32 extendedErrorCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, errorCode As Integer, extendedErrorCode As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteException : string * int * int -&gt; Microsoft.Data.Sqlite.SqliteException" Usage="new Microsoft.Data.Sqlite.SqliteException (message, errorCode, extendedErrorCode)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="errorCode" Type="System.Int32" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="extendedErrorCode" Type="System.Int32" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+      </Parameters>
+      <Docs>
+        <param name="message">The message to display for the exception. Can be null.</param>
+        <param name="errorCode">The SQLite error code.</param>
+        <param name="extendedErrorCode">The extended SQLite error code.</param>
+        <summary>
+                Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteException" /> class.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -57,15 +97,45 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the SQLite error code.
+                Gets the SQLite error code.
+            </summary>
+        <value>The SQLite error code.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SqliteExtendedErrorCode">
+      <MemberSignature Language="C#" Value="public virtual int SqliteExtendedErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SqliteExtendedErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteException.SqliteExtendedErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SqliteExtendedErrorCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.SqliteExtendedErrorCode : int" Usage="Microsoft.Data.Sqlite.SqliteException.SqliteExtendedErrorCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+                Gets the extended SQLite error code.
             </summary>
         <value>The SQLite error code.</value>
         <remarks>To be added.</remarks>
@@ -81,22 +151,26 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.1.0</AssemblyVersion>
+        <AssemblyVersion>2.1.11.0</AssemblyVersion>
+        <AssemblyVersion>2.2.6.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rc" Type="System.Int32" />
-        <Parameter Name="db" Type="SQLitePCL.sqlite3" />
+        <Parameter Name="rc" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
+        <Parameter Name="db" Type="SQLitePCL.sqlite3" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
       </Parameters>
       <Docs>
         <param name="rc">The SQLite error code corresponding to the desired exception.</param>
         <param name="db">A handle to database connection.</param>
         <summary>
-            Throws an exception with a specific SQLite error code value.
+                Throws an exception with a specific SQLite error code value.
             </summary>
         <remarks>
-            No exception is thrown for non-error result codes.
+                No exception is thrown for non-error result codes.
             </remarks>
       </Docs>
     </Member>
