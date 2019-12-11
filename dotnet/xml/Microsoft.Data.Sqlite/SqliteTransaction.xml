@@ -15,6 +15,7 @@
     <AssemblyVersion>2.1.11.0</AssemblyVersion>
     <AssemblyVersion>2.2.6.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbTransaction</BaseTypeName>
@@ -33,7 +34,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Commit" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Commit ()" />
       <MemberSignature Language="F#" Value="override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Commit : unit -&gt; unit&#xA;override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member Commit : unit -&gt; unit&#xA;override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -46,6 +47,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -76,6 +78,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteConnection</ReturnType>
@@ -106,6 +109,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnection</ReturnType>
@@ -124,7 +128,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
       <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -137,6 +141,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -172,6 +177,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.IsolationLevel</ReturnType>
@@ -191,7 +197,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Rollback" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Rollback ()" />
       <MemberSignature Language="F#" Value="override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Rollback : unit -&gt; unit&#xA;override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member Rollback : unit -&gt; unit&#xA;override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -204,6 +210,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

@@ -15,6 +15,7 @@
     <AssemblyVersion>2.1.11.0</AssemblyVersion>
     <AssemblyVersion>2.2.6.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbConnectionStringBuilder</BaseTypeName>
@@ -45,6 +46,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -72,6 +74,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -104,6 +107,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteCacheMode</ReturnType>
@@ -122,7 +126,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Clear ()" />
       <MemberSignature Language="F#" Value="override this.Clear : unit -&gt; unit" Usage="sqliteConnectionStringBuilder.Clear " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="sqliteConnectionStringBuilder.Clear " FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="sqliteConnectionStringBuilder.Clear " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -135,6 +139,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -153,7 +158,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ContainsKey(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ContainsKey (keyword As String) As Boolean" />
       <MemberSignature Language="F#" Value="override this.ContainsKey : string -&gt; bool" Usage="sqliteConnectionStringBuilder.ContainsKey keyword" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member ContainsKey : string -&gt; bool&#xA;override this.ContainsKey : string -&gt; bool" Usage="sqliteConnectionStringBuilder.ContainsKey keyword" FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ContainsKey : string -&gt; bool&#xA;override this.ContainsKey : string -&gt; bool" Usage="sqliteConnectionStringBuilder.ContainsKey keyword" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -166,6 +171,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -200,6 +206,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -222,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -255,6 +263,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -289,6 +298,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ICollection</ReturnType>
@@ -319,6 +329,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteOpenMode</ReturnType>
@@ -341,6 +352,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -364,6 +376,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -384,7 +397,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Remove(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Remove (keyword As String) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Remove : string -&gt; bool" Usage="sqliteConnectionStringBuilder.Remove keyword" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Remove : string -&gt; bool&#xA;override this.Remove : string -&gt; bool" Usage="sqliteConnectionStringBuilder.Remove keyword" FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member Remove : string -&gt; bool&#xA;override this.Remove : string -&gt; bool" Usage="sqliteConnectionStringBuilder.Remove keyword" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -397,6 +410,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -419,7 +433,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ShouldSerialize(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ShouldSerialize (keyword As String) As Boolean" />
       <MemberSignature Language="F#" Value="override this.ShouldSerialize : string -&gt; bool" Usage="sqliteConnectionStringBuilder.ShouldSerialize keyword" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member ShouldSerialize : string -&gt; bool&#xA;override this.ShouldSerialize : string -&gt; bool" Usage="sqliteConnectionStringBuilder.ShouldSerialize keyword" FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member ShouldSerialize : string -&gt; bool&#xA;override this.ShouldSerialize : string -&gt; bool" Usage="sqliteConnectionStringBuilder.ShouldSerialize keyword" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -432,6 +446,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -454,7 +469,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.TryGetValue(System.String,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryGetValue (keyword As String, ByRef value As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.TryGetValue : string * obj -&gt; bool" Usage="sqliteConnectionStringBuilder.TryGetValue (keyword, value)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member TryGetValue : string * obj -&gt; bool&#xA;override this.TryGetValue : string * obj -&gt; bool" Usage="sqliteConnectionStringBuilder.TryGetValue (keyword, value)" FrameworkAlternate="msdata-sqlite-3.0.0" />
+      <MemberSignature Language="F#" Value="abstract member TryGetValue : string * obj -&gt; bool&#xA;override this.TryGetValue : string * obj -&gt; bool" Usage="sqliteConnectionStringBuilder.TryGetValue (keyword, value)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -467,6 +482,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -503,6 +519,7 @@
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ICollection</ReturnType>
