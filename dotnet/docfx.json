@@ -45,6 +45,9 @@
     "fileMetadata": {
       "author": {
         "api/**.yml": "dotnet-bot"
+      },
+      "ms.prod": {
+        "api/Microsoft.Data.Sqlite*.yml": "entity-framework"
       }
     },
     "template": [],
