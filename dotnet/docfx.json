@@ -40,16 +40,13 @@
     },
     "globalMetadata": {
       "apiPlatform": "dotnet",
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+      "breadcrumb_path": "~/breadcrumb/toc.yml",
+      "author": "dotnet-bot",
+      "ms.prod": "entity-framework",
+      "ms.topic": "managed-reference",
+      "defaultDevLang": "csharp"      
     },
-    "fileMetadata": {
-      "author": {
-        "api/**.yml": "dotnet-bot"
-      },
-      "ms.prod": {
-        "api/Microsoft.Data.Sqlite*.yml": "entity-framework"
-      }
-    },
+    "fileMetadata": {},
     "template": [],
     "dest": "_site",
     "xref": [
