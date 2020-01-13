@@ -42,6 +42,8 @@
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "author": "dotnet-bot",
+      "ms.author": "bricelam",
+      "ms.date": "12/03/2019",
       "ms.prod": "entity-framework",
       "ms.topic": "managed-reference",
       "defaultDevLang": "csharp"      
