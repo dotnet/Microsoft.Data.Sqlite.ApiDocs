@@ -1,9 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Framework Name="msdata-sqlite-2.2">
+<Framework Name="msdata-sqlite-3.0.0">
   <Assemblies>
-    <Assembly Name="Microsoft.Data.Sqlite" Version="2.2.6.0" />
+    <Assembly Name="Microsoft.Data.Sqlite" Version="3.0.0.0" />
   </Assemblies>
   <Namespace Name="Microsoft.Data.Sqlite">
+    <Type Name="Microsoft.Data.Sqlite.SqliteBlob" Id="T:Microsoft.Data.Sqlite.SqliteBlob">
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.#ctor(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String,System.Int64,System.Boolean)" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.#ctor(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String,System.String,System.Int64,System.Boolean)" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.Dispose(System.Boolean)" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.Flush" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.Read(System.Byte[],System.Int32,System.Int32)" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.Seek(System.Int64,System.IO.SeekOrigin)" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.SetLength(System.Int64)" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteBlob.Write(System.Byte[],System.Int32,System.Int32)" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteBlob.CanRead" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteBlob.CanSeek" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteBlob.CanWrite" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteBlob.Length" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteBlob.Position" />
+    </Type>
     <Type Name="Microsoft.Data.Sqlite.SqliteCacheMode" Id="T:Microsoft.Data.Sqlite.SqliteCacheMode">
       <Member Id="F:Microsoft.Data.Sqlite.SqliteCacheMode.Default" />
       <Member Id="F:Microsoft.Data.Sqlite.SqliteCacheMode.Private" />
@@ -144,6 +159,7 @@
       <Member Id="M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``9(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)" />
       <Member Id="M:Microsoft.Data.Sqlite.SqliteConnection.Dispose(System.Boolean)" />
       <Member Id="M:Microsoft.Data.Sqlite.SqliteConnection.EnableExtensions(System.Boolean)" />
+      <Member Id="M:Microsoft.Data.Sqlite.SqliteConnection.LoadExtension(System.String,System.String)" />
       <Member Id="M:Microsoft.Data.Sqlite.SqliteConnection.Open" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnection.ConnectionString" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnection.Database" />
@@ -165,9 +181,12 @@
       <Member Id="M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.TryGetValue(System.String,System.Object@)" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Cache" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.DataSource" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ForeignKeys" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Item(System.String)" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Keys" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Mode" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Password" />
+      <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.RecursiveTriggers" />
       <Member Id="P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Values" />
     </Type>
     <Type Name="Microsoft.Data.Sqlite.SqliteDataReader" Id="T:Microsoft.Data.Sqlite.SqliteDataReader">
