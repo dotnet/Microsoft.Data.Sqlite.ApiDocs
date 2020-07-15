@@ -33,8 +33,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Commit() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Commit" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Commit ()" />
-      <MemberSignature Language="F#" Value="override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Commit : unit -&gt; unit&#xA;override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " FrameworkAlternate="msdata-sqlite-1.0;msdata-sqlite-1.1;msdata-sqlite-2.0;msdata-sqlite-2.1;msdata-sqlite-2.2" />
+      <MemberSignature Language="F#" Value="abstract member Commit : unit -&gt; unit&#xA;override this.Commit : unit -&gt; unit" Usage="sqliteTransaction.Commit " FrameworkAlternate="msdata-sqlite-3.0;msdata-sqlite-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -127,8 +127,8 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" />
-      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" FrameworkAlternate="msdata-sqlite-1.0;msdata-sqlite-1.1;msdata-sqlite-2.0;msdata-sqlite-2.1;msdata-sqlite-2.2" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="sqliteTransaction.Dispose disposing" FrameworkAlternate="msdata-sqlite-3.0;msdata-sqlite-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -196,8 +196,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Rollback() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Rollback" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Rollback ()" />
-      <MemberSignature Language="F#" Value="override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Rollback : unit -&gt; unit&#xA;override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " FrameworkAlternate="msdata-sqlite-1.0;msdata-sqlite-1.1;msdata-sqlite-2.0;msdata-sqlite-2.1;msdata-sqlite-2.2" />
+      <MemberSignature Language="F#" Value="abstract member Rollback : unit -&gt; unit&#xA;override this.Rollback : unit -&gt; unit" Usage="sqliteTransaction.Rollback " FrameworkAlternate="msdata-sqlite-3.0;msdata-sqlite-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>

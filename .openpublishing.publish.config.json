@@ -6,9 +6,9 @@
       "build_output_subfolder": "sqlite-dotnet",
       "locale": "en-us",
       "monikers": [
-        "msdata-sqlite-1.0.0",
-        "msdata-sqlite-1.1.0",
-        "msdata-sqlite-2.0.0"
+        "msdata-sqlite-1.0",
+        "msdata-sqlite-1.1",
+        "msdata-sqlite-2.0"
       ],
       "moniker_ranges": [],
       "open_to_public_contributors": false,

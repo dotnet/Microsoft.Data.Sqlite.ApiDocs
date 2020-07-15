@@ -76,9 +76,9 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0" />
-        <Parameter Name="errorCode" Type="System.Int32" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0" />
-        <Parameter Name="extendedErrorCode" Type="System.Int32" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0" />
+        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0;msdata-sqlite-2.1;msdata-sqlite-2.2;msdata-sqlite-3.1" />
+        <Parameter Name="errorCode" Type="System.Int32" Index="1" FrameworkAlternate="msdata-sqlite-3.0;msdata-sqlite-2.1;msdata-sqlite-2.2;msdata-sqlite-3.1" />
+        <Parameter Name="extendedErrorCode" Type="System.Int32" Index="2" FrameworkAlternate="msdata-sqlite-3.0;msdata-sqlite-2.1;msdata-sqlite-2.2;msdata-sqlite-3.1" />
       </Parameters>
       <Docs>
         <param name="message">The message to display for the exception. Can be null.</param>
@@ -166,8 +166,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rc" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0" />
-        <Parameter Name="db" Type="SQLitePCL.sqlite3" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0" />
+        <Parameter Name="rc" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-2.0;msdata-sqlite-3.0;msdata-sqlite-2.1;msdata-sqlite-2.2;msdata-sqlite-3.1" />
+        <Parameter Name="db" Type="SQLitePCL.sqlite3" Index="1" FrameworkAlternate="msdata-sqlite-2.0;msdata-sqlite-3.0;msdata-sqlite-2.1;msdata-sqlite-2.2;msdata-sqlite-3.1" />
       </Parameters>
       <Docs>
         <param name="rc">The SQLite error code corresponding to the desired exception.</param>
