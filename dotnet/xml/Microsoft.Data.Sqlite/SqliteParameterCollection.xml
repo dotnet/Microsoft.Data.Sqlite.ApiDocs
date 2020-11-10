@@ -16,6 +16,7 @@
     <AssemblyVersion>2.2.6.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbParameterCollection</BaseTypeName>
@@ -46,6 +47,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -60,8 +62,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteParameter Add(class Microsoft.Data.Sqlite.SqliteParameter value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(Microsoft.Data.Sqlite.SqliteParameter)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (value As SqliteParameter) As SqliteParameter" />
-      <MemberSignature Language="F#" Value="override this.Add : Microsoft.Data.Sqlite.SqliteParameter -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Add : Microsoft.Data.Sqlite.SqliteParameter -&gt; Microsoft.Data.Sqlite.SqliteParameter&#xA;override this.Add : Microsoft.Data.Sqlite.SqliteParameter -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Add : Microsoft.Data.Sqlite.SqliteParameter -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -75,6 +76,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -96,8 +98,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 Add(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Add (value As Object) As Integer" />
-      <MemberSignature Language="F#" Value="override this.Add : obj -&gt; int" Usage="sqliteParameterCollection.Add value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Add : obj -&gt; int&#xA;override this.Add : obj -&gt; int" Usage="sqliteParameterCollection.Add value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Add : obj -&gt; int" Usage="sqliteParameterCollection.Add value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -111,6 +112,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -132,8 +134,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteParameter Add(string parameterName, valuetype Microsoft.Data.Sqlite.SqliteType type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (parameterName As String, type As SqliteType) As SqliteParameter" />
-      <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Add : string * Microsoft.Data.Sqlite.SqliteType -&gt; Microsoft.Data.Sqlite.SqliteParameter&#xA;override this.Add : string * Microsoft.Data.Sqlite.SqliteType -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -147,6 +148,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -170,8 +172,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteParameter Add(string parameterName, valuetype Microsoft.Data.Sqlite.SqliteType type, int32 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (parameterName As String, type As SqliteType, size As Integer) As SqliteParameter" />
-      <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Add : string * Microsoft.Data.Sqlite.SqliteType * int -&gt; Microsoft.Data.Sqlite.SqliteParameter&#xA;override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -185,6 +186,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -210,8 +212,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Data.Sqlite.SqliteParameter Add(string parameterName, valuetype Microsoft.Data.Sqlite.SqliteType type, int32 size, string sourceColumn) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (parameterName As String, type As SqliteType, size As Integer, sourceColumn As String) As SqliteParameter" />
-      <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int * string -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size, sourceColumn)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Add : string * Microsoft.Data.Sqlite.SqliteType * int * string -&gt; Microsoft.Data.Sqlite.SqliteParameter&#xA;override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int * string -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size, sourceColumn)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int * string -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size, sourceColumn)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -225,6 +226,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -254,8 +256,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void AddRange(class System.Array values) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Array)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub AddRange (values As Array)" />
-      <MemberSignature Language="F#" Value="override this.AddRange : Array -&gt; unit" Usage="sqliteParameterCollection.AddRange values" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member AddRange : Array -&gt; unit&#xA;override this.AddRange : Array -&gt; unit" Usage="sqliteParameterCollection.AddRange values" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.AddRange : Array -&gt; unit" Usage="sqliteParameterCollection.AddRange values" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -269,6 +270,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -291,8 +293,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Data.Sqlite.SqliteParameter&gt; values) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Data.Sqlite.SqliteParameter})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub AddRange (values As IEnumerable(Of SqliteParameter))" />
-      <MemberSignature Language="F#" Value="override this.AddRange : seq&lt;Microsoft.Data.Sqlite.SqliteParameter&gt; -&gt; unit" Usage="sqliteParameterCollection.AddRange values" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member AddRange : seq&lt;Microsoft.Data.Sqlite.SqliteParameter&gt; -&gt; unit&#xA;override this.AddRange : seq&lt;Microsoft.Data.Sqlite.SqliteParameter&gt; -&gt; unit" Usage="sqliteParameterCollection.AddRange values" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.AddRange : seq&lt;Microsoft.Data.Sqlite.SqliteParameter&gt; -&gt; unit" Usage="sqliteParameterCollection.AddRange values" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -306,6 +307,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -340,6 +342,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -363,8 +366,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Clear() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Clear ()" />
-      <MemberSignature Language="F#" Value="override this.Clear : unit -&gt; unit" Usage="sqliteParameterCollection.Clear " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="sqliteParameterCollection.Clear " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Clear : unit -&gt; unit" Usage="sqliteParameterCollection.Clear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -378,6 +380,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -395,8 +398,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Contains(class Microsoft.Data.Sqlite.SqliteParameter value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(Microsoft.Data.Sqlite.SqliteParameter)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Contains (value As SqliteParameter) As Boolean" />
-      <MemberSignature Language="F#" Value="override this.Contains : Microsoft.Data.Sqlite.SqliteParameter -&gt; bool" Usage="sqliteParameterCollection.Contains value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Contains : Microsoft.Data.Sqlite.SqliteParameter -&gt; bool&#xA;override this.Contains : Microsoft.Data.Sqlite.SqliteParameter -&gt; bool" Usage="sqliteParameterCollection.Contains value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Contains : Microsoft.Data.Sqlite.SqliteParameter -&gt; bool" Usage="sqliteParameterCollection.Contains value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -410,6 +412,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -422,7 +425,8 @@
         <summary>
                 Gets a value indicating whether the collection contains the specified parameter.
             </summary>
-        <returns>true if the collection contains the parameter; otherwise, false.</returns>
+        <returns>
+          <see langword="true" /> if the collection contains the parameter; otherwise, <see langword="false" />. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -431,8 +435,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Contains(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Contains (value As Object) As Boolean" />
-      <MemberSignature Language="F#" Value="override this.Contains : obj -&gt; bool" Usage="sqliteParameterCollection.Contains value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Contains : obj -&gt; bool&#xA;override this.Contains : obj -&gt; bool" Usage="sqliteParameterCollection.Contains value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Contains : obj -&gt; bool" Usage="sqliteParameterCollection.Contains value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -446,6 +449,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -458,7 +462,8 @@
         <summary>
                 Gets a value indicating whether the collection contains the specified parameter.
             </summary>
-        <returns>true if the collection contains the parameter; otherwise, false.</returns>
+        <returns>
+          <see langword="true" /> if the collection contains the parameter; otherwise, <see langword="false" />. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -467,8 +472,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Contains(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Contains (value As String) As Boolean" />
-      <MemberSignature Language="F#" Value="override this.Contains : string -&gt; bool" Usage="sqliteParameterCollection.Contains value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Contains : string -&gt; bool&#xA;override this.Contains : string -&gt; bool" Usage="sqliteParameterCollection.Contains value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Contains : string -&gt; bool" Usage="sqliteParameterCollection.Contains value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -482,6 +486,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -494,7 +499,8 @@
         <summary>
                 Gets a value indicating whether the collection contains a parameter with the specified name.
             </summary>
-        <returns>true if the collection contains the parameter; otherwise, false.</returns>
+        <returns>
+          <see langword="true" /> if the collection contains the parameter; otherwise, <see langword="false" />. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -503,8 +509,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyTo(class Microsoft.Data.Sqlite.SqliteParameter[] array, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(Microsoft.Data.Sqlite.SqliteParameter[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub CopyTo (array As SqliteParameter(), index As Integer)" />
-      <MemberSignature Language="F#" Value="override this.CopyTo : Microsoft.Data.Sqlite.SqliteParameter[] * int -&gt; unit" Usage="sqliteParameterCollection.CopyTo (array, index)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member CopyTo : Microsoft.Data.Sqlite.SqliteParameter[] * int -&gt; unit&#xA;override this.CopyTo : Microsoft.Data.Sqlite.SqliteParameter[] * int -&gt; unit" Usage="sqliteParameterCollection.CopyTo (array, index)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.CopyTo : Microsoft.Data.Sqlite.SqliteParameter[] * int -&gt; unit" Usage="sqliteParameterCollection.CopyTo (array, index)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -518,6 +523,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -539,8 +545,8 @@
       <MemberSignature Language="C#" Value="public override void CopyTo (Array array, int index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void CopyTo(class System.Array array, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(System.Array,System.Int32)" />
-      <MemberSignature Language="F#" Value="override this.CopyTo : Array * int -&gt; unit" Usage="sqliteParameterCollection.CopyTo (array, index)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member CopyTo : Array * int -&gt; unit&#xA;override this.CopyTo : Array * int -&gt; unit" Usage="sqliteParameterCollection.CopyTo (array, index)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub CopyTo (array As Array, index As Integer)" />
+      <MemberSignature Language="F#" Value="override this.CopyTo : Array * int -&gt; unit" Usage="sqliteParameterCollection.CopyTo (array, index)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -554,6 +560,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -592,6 +599,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -609,8 +617,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetEnumerator () As IEnumerator" />
-      <MemberSignature Language="F#" Value="override this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="sqliteParameterCollection.GetEnumerator " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator&#xA;override this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="sqliteParameterCollection.GetEnumerator " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="sqliteParameterCollection.GetEnumerator " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -624,6 +631,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -642,8 +650,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbParameter GetParameter(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetParameter (index As Integer) As DbParameter" />
-      <MemberSignature Language="F#" Value="override this.GetParameter : int -&gt; System.Data.Common.DbParameter" Usage="sqliteParameterCollection.GetParameter index" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member GetParameter : int -&gt; System.Data.Common.DbParameter&#xA;override this.GetParameter : int -&gt; System.Data.Common.DbParameter" Usage="sqliteParameterCollection.GetParameter index" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.GetParameter : int -&gt; System.Data.Common.DbParameter" Usage="sqliteParameterCollection.GetParameter index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -657,6 +664,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
@@ -678,8 +686,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Data.Common.DbParameter GetParameter(string parameterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.String)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetParameter (parameterName As String) As DbParameter" />
-      <MemberSignature Language="F#" Value="override this.GetParameter : string -&gt; System.Data.Common.DbParameter" Usage="sqliteParameterCollection.GetParameter parameterName" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member GetParameter : string -&gt; System.Data.Common.DbParameter&#xA;override this.GetParameter : string -&gt; System.Data.Common.DbParameter" Usage="sqliteParameterCollection.GetParameter parameterName" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.GetParameter : string -&gt; System.Data.Common.DbParameter" Usage="sqliteParameterCollection.GetParameter parameterName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -693,6 +700,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
@@ -714,8 +722,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 IndexOf(class Microsoft.Data.Sqlite.SqliteParameter value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(Microsoft.Data.Sqlite.SqliteParameter)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function IndexOf (value As SqliteParameter) As Integer" />
-      <MemberSignature Language="F#" Value="override this.IndexOf : Microsoft.Data.Sqlite.SqliteParameter -&gt; int" Usage="sqliteParameterCollection.IndexOf value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member IndexOf : Microsoft.Data.Sqlite.SqliteParameter -&gt; int&#xA;override this.IndexOf : Microsoft.Data.Sqlite.SqliteParameter -&gt; int" Usage="sqliteParameterCollection.IndexOf value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.IndexOf : Microsoft.Data.Sqlite.SqliteParameter -&gt; int" Usage="sqliteParameterCollection.IndexOf value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -729,6 +736,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -750,8 +758,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 IndexOf(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function IndexOf (value As Object) As Integer" />
-      <MemberSignature Language="F#" Value="override this.IndexOf : obj -&gt; int" Usage="sqliteParameterCollection.IndexOf value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member IndexOf : obj -&gt; int&#xA;override this.IndexOf : obj -&gt; int" Usage="sqliteParameterCollection.IndexOf value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.IndexOf : obj -&gt; int" Usage="sqliteParameterCollection.IndexOf value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -765,6 +772,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -786,8 +794,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 IndexOf(string parameterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function IndexOf (parameterName As String) As Integer" />
-      <MemberSignature Language="F#" Value="override this.IndexOf : string -&gt; int" Usage="sqliteParameterCollection.IndexOf parameterName" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member IndexOf : string -&gt; int&#xA;override this.IndexOf : string -&gt; int" Usage="sqliteParameterCollection.IndexOf parameterName" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.IndexOf : string -&gt; int" Usage="sqliteParameterCollection.IndexOf parameterName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -801,6 +808,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -822,8 +830,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Insert(int32 index, class Microsoft.Data.Sqlite.SqliteParameter value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,Microsoft.Data.Sqlite.SqliteParameter)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Insert (index As Integer, value As SqliteParameter)" />
-      <MemberSignature Language="F#" Value="override this.Insert : int * Microsoft.Data.Sqlite.SqliteParameter -&gt; unit" Usage="sqliteParameterCollection.Insert (index, value)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Insert : int * Microsoft.Data.Sqlite.SqliteParameter -&gt; unit&#xA;override this.Insert : int * Microsoft.Data.Sqlite.SqliteParameter -&gt; unit" Usage="sqliteParameterCollection.Insert (index, value)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Insert : int * Microsoft.Data.Sqlite.SqliteParameter -&gt; unit" Usage="sqliteParameterCollection.Insert (index, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -837,6 +844,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -859,8 +867,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Insert(int32 index, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Insert (index As Integer, value As Object)" />
-      <MemberSignature Language="F#" Value="override this.Insert : int * obj -&gt; unit" Usage="sqliteParameterCollection.Insert (index, value)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Insert : int * obj -&gt; unit&#xA;override this.Insert : int * obj -&gt; unit" Usage="sqliteParameterCollection.Insert (index, value)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Insert : int * obj -&gt; unit" Usage="sqliteParameterCollection.Insert (index, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -874,6 +881,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -985,6 +993,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -1020,6 +1029,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -1041,8 +1051,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove(class Microsoft.Data.Sqlite.SqliteParameter value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(Microsoft.Data.Sqlite.SqliteParameter)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Remove (value As SqliteParameter)" />
-      <MemberSignature Language="F#" Value="override this.Remove : Microsoft.Data.Sqlite.SqliteParameter -&gt; unit" Usage="sqliteParameterCollection.Remove value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Remove : Microsoft.Data.Sqlite.SqliteParameter -&gt; unit&#xA;override this.Remove : Microsoft.Data.Sqlite.SqliteParameter -&gt; unit" Usage="sqliteParameterCollection.Remove value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Remove : Microsoft.Data.Sqlite.SqliteParameter -&gt; unit" Usage="sqliteParameterCollection.Remove value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1056,6 +1065,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1076,8 +1086,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Remove(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Remove (value As Object)" />
-      <MemberSignature Language="F#" Value="override this.Remove : obj -&gt; unit" Usage="sqliteParameterCollection.Remove value" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member Remove : obj -&gt; unit&#xA;override this.Remove : obj -&gt; unit" Usage="sqliteParameterCollection.Remove value" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.Remove : obj -&gt; unit" Usage="sqliteParameterCollection.Remove value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1091,6 +1100,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1111,8 +1121,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void RemoveAt(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub RemoveAt (index As Integer)" />
-      <MemberSignature Language="F#" Value="override this.RemoveAt : int -&gt; unit" Usage="sqliteParameterCollection.RemoveAt index" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="sqliteParameterCollection.RemoveAt index" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.RemoveAt : int -&gt; unit" Usage="sqliteParameterCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1126,6 +1135,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1146,8 +1156,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void RemoveAt(string parameterName) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub RemoveAt (parameterName As String)" />
-      <MemberSignature Language="F#" Value="override this.RemoveAt : string -&gt; unit" Usage="sqliteParameterCollection.RemoveAt parameterName" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member RemoveAt : string -&gt; unit&#xA;override this.RemoveAt : string -&gt; unit" Usage="sqliteParameterCollection.RemoveAt parameterName" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.RemoveAt : string -&gt; unit" Usage="sqliteParameterCollection.RemoveAt parameterName" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1161,6 +1170,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1181,8 +1191,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void SetParameter(int32 index, class System.Data.Common.DbParameter value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.Int32,System.Data.Common.DbParameter)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub SetParameter (index As Integer, value As DbParameter)" />
-      <MemberSignature Language="F#" Value="override this.SetParameter : int * System.Data.Common.DbParameter -&gt; unit" Usage="sqliteParameterCollection.SetParameter (index, value)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member SetParameter : int * System.Data.Common.DbParameter -&gt; unit&#xA;override this.SetParameter : int * System.Data.Common.DbParameter -&gt; unit" Usage="sqliteParameterCollection.SetParameter (index, value)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.SetParameter : int * System.Data.Common.DbParameter -&gt; unit" Usage="sqliteParameterCollection.SetParameter (index, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1196,6 +1205,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1218,8 +1228,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void SetParameter(string parameterName, class System.Data.Common.DbParameter value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub SetParameter (parameterName As String, value As DbParameter)" />
-      <MemberSignature Language="F#" Value="override this.SetParameter : string * System.Data.Common.DbParameter -&gt; unit" Usage="sqliteParameterCollection.SetParameter (parameterName, value)" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member SetParameter : string * System.Data.Common.DbParameter -&gt; unit&#xA;override this.SetParameter : string * System.Data.Common.DbParameter -&gt; unit" Usage="sqliteParameterCollection.SetParameter (parameterName, value)" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.SetParameter : string * System.Data.Common.DbParameter -&gt; unit" Usage="sqliteParameterCollection.SetParameter (parameterName, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1233,6 +1242,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1269,6 +1279,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
