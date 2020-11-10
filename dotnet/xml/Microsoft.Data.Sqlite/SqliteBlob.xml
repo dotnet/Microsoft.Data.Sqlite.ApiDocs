@@ -8,6 +8,7 @@
     <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.IO.Stream</BaseTypeName>
@@ -31,6 +32,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connection" Type="Microsoft.Data.Sqlite.SqliteConnection" />
@@ -62,6 +64,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connection" Type="Microsoft.Data.Sqlite.SqliteConnection" />
@@ -95,6 +98,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -104,7 +108,8 @@
                 Gets a value indicating whether the current stream supports reading.
                 Always true.
             </summary>
-        <value>true if the stream supports reading; otherwise, false.</value>
+        <value>
+          <see langword="true" /> if the stream supports reading; otherwise, <see langword="false" />. </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -119,6 +124,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -128,7 +134,8 @@
                 Gets a value indicating whether the current stream supports seeking.
                 Always true.
             </summary>
-        <value>true if the stream supports seeking; otherwise, false.</value>
+        <value>
+          <see langword="true" /> if the stream supports seeking; otherwise, <see langword="false" />. </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,6 +150,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -151,7 +159,8 @@
         <summary>
                 Gets a value indicating whether the current stream supports writing.
             </summary>
-        <value>true if the stream supports writing; otherwise, false.</value>
+        <value>
+          <see langword="true" /> if the stream supports writing; otherwise, <see langword="false" />. </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -166,6 +175,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -175,7 +185,7 @@
       </Parameters>
       <Docs>
         <param name="disposing">
-                true to release managed and unmanaged resources; false to release only unmanaged resources.
+                true to release managed and unmanaged resources; <see langword="false" /> to release only unmanaged resources.
             </param>
         <summary>
                 Releases any resources used by the blob and closes it.
@@ -194,6 +204,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -218,6 +229,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -241,6 +253,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -264,6 +277,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -299,6 +313,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -328,6 +343,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -356,6 +372,7 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
