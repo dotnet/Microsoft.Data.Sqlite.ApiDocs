@@ -16,6 +16,7 @@
     <AssemblyVersion>2.2.6.0</AssemblyVersion>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbProviderFactory</BaseTypeName>
@@ -33,8 +34,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.Common.DbCommand CreateCommand() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteFactory.CreateCommand" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateCommand () As DbCommand" />
-      <MemberSignature Language="F#" Value="override this.CreateCommand : unit -&gt; System.Data.Common.DbCommand" Usage="sqliteFactory.CreateCommand " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member CreateCommand : unit -&gt; System.Data.Common.DbCommand&#xA;override this.CreateCommand : unit -&gt; System.Data.Common.DbCommand" Usage="sqliteFactory.CreateCommand " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.CreateCommand : unit -&gt; System.Data.Common.DbCommand" Usage="sqliteFactory.CreateCommand " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -48,6 +48,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbCommand</ReturnType>
@@ -66,8 +67,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.Common.DbConnection CreateConnection() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnection" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateConnection () As DbConnection" />
-      <MemberSignature Language="F#" Value="override this.CreateConnection : unit -&gt; System.Data.Common.DbConnection" Usage="sqliteFactory.CreateConnection " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member CreateConnection : unit -&gt; System.Data.Common.DbConnection&#xA;override this.CreateConnection : unit -&gt; System.Data.Common.DbConnection" Usage="sqliteFactory.CreateConnection " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.CreateConnection : unit -&gt; System.Data.Common.DbConnection" Usage="sqliteFactory.CreateConnection " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -81,6 +81,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnection</ReturnType>
@@ -99,8 +100,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.Common.DbConnectionStringBuilder CreateConnectionStringBuilder() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnectionStringBuilder" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateConnectionStringBuilder () As DbConnectionStringBuilder" />
-      <MemberSignature Language="F#" Value="override this.CreateConnectionStringBuilder : unit -&gt; System.Data.Common.DbConnectionStringBuilder" Usage="sqliteFactory.CreateConnectionStringBuilder " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member CreateConnectionStringBuilder : unit -&gt; System.Data.Common.DbConnectionStringBuilder&#xA;override this.CreateConnectionStringBuilder : unit -&gt; System.Data.Common.DbConnectionStringBuilder" Usage="sqliteFactory.CreateConnectionStringBuilder " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.CreateConnectionStringBuilder : unit -&gt; System.Data.Common.DbConnectionStringBuilder" Usage="sqliteFactory.CreateConnectionStringBuilder " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -114,6 +114,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnectionStringBuilder</ReturnType>
@@ -132,8 +133,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.Common.DbParameter CreateParameter() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteFactory.CreateParameter" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateParameter () As DbParameter" />
-      <MemberSignature Language="F#" Value="override this.CreateParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteFactory.CreateParameter " FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0" />
-      <MemberSignature Language="F#" Value="abstract member CreateParameter : unit -&gt; System.Data.Common.DbParameter&#xA;override this.CreateParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteFactory.CreateParameter " FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-3.1.0" />
+      <MemberSignature Language="F#" Value="override this.CreateParameter : unit -&gt; System.Data.Common.DbParameter" Usage="sqliteFactory.CreateParameter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -147,6 +147,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
@@ -179,6 +180,7 @@
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteFactory</ReturnType>
