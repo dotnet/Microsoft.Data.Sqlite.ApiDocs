@@ -45,6 +45,11 @@
       "ms.author": "bricelam",
       "ms.date": "12/03/2019",
       "ms.prod": "entity-framework",
+      "products": [
+        "https://authoring-docs-microsoft.poolparty.biz/devrel/7696cda6-0510-47f6-8302-71bb5d2e28cf",
+        "https://authoring-docs-microsoft.poolparty.biz/devrel/56a03cf0-cabf-4e70-800b-dcb9ff39361c",
+        "https://authoring-docs-microsoft.poolparty.biz/devrel/8eb81391-e81d-4461-aa4a-9512fd4bbed8"
+      ],
       "ms.topic": "managed-reference",
       "defaultDevLang": "csharp"      
     },
