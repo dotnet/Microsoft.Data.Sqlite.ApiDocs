@@ -27,6 +27,9 @@
                 Represents a SQL statement to be executed against a SQLite database.
             </summary>
     <remarks>To be added.</remarks>
+    <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
+    <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
+    <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/async">Async Limitations</seealso>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -221,6 +224,7 @@
             </summary>
         <value>The SQL to execute against the database.</value>
         <remarks>To be added.</remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
       </Docs>
     </Member>
     <Member MemberName="CommandTimeout">
@@ -256,6 +260,7 @@
         <remarks>
                 The timeout is used when the command is waiting to obtain a lock on the table.
             </remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
       </Docs>
     </Member>
     <Member MemberName="CommandType">
@@ -647,6 +652,7 @@
             </summary>
         <returns>A task representing the asynchronous operation.</returns>
         <remarks>To be added.</remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/async">Async Limitations</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteNonQuery">
@@ -681,6 +687,7 @@
         <returns>The number of rows inserted, updated, or deleted. -1 for SELECT statements.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:Microsoft.Data.Sqlite.SqliteException">A SQLite error occurs during execution.</exception>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteReader">
@@ -715,6 +722,8 @@
         <returns>The data reader.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:Microsoft.Data.Sqlite.SqliteException">A SQLite error occurs during execution.</exception>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteReader">
@@ -752,6 +761,8 @@
         <returns>The data reader.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:Microsoft.Data.Sqlite.SqliteException">A SQLite error occurs during execution.</exception>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteReaderAsync">
@@ -787,6 +798,9 @@
         <remarks>
                 SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/async">Async Limitations</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteReaderAsync">
@@ -825,6 +839,9 @@
         <remarks>
                 SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/async">Async Limitations</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteReaderAsync">
@@ -863,6 +880,9 @@
         <remarks>
                 SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/async">Async Limitations</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteReaderAsync">
@@ -903,6 +923,9 @@
         <remarks>
                 SQLite does not support asynchronous execution. Use write-ahead logging instead.
             </remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/async">Async Limitations</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/batching">Batching</seealso>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
       </Docs>
     </Member>
     <Member MemberName="ExecuteScalar">
@@ -937,6 +960,7 @@
         <returns>The first column of the first row of the results, or null if no results.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:Microsoft.Data.Sqlite.SqliteException">A SQLite error occurs during execution.</exception>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/database-errors">Database Errors</seealso>
       </Docs>
     </Member>
     <Member MemberName="Parameters">
@@ -969,6 +993,7 @@
             </summary>
         <value>The collection of parameters used by the command.</value>
         <remarks>To be added.</remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/parameters">Parameters</seealso>
       </Docs>
     </Member>
     <Member MemberName="Prepare">

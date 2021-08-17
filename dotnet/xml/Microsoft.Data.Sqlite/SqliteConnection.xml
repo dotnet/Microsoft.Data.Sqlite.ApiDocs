@@ -28,6 +28,7 @@
                 Represents a connection to a SQLite database.
             </summary>
     <remarks>To be added.</remarks>
+    <!-- TODO: Got here -->
   </Docs>
   <Members>
     <Member MemberName=".ctor">

@@ -120,6 +120,7 @@
                 Shared-cache mode. Connections share a cache. This mode can change the behavior of transaction and table
                 locking.
             </summary>
+        <seealso href="https://www.sqlite.org/sharedcache.html">SQLite Shared-Cache Mode</seealso>
       </Docs>
     </Member>
   </Members>

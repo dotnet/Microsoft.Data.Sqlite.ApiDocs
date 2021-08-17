@@ -19,6 +19,7 @@
                 Provides methods to access the contents of a blob.
             </summary>
     <remarks>To be added.</remarks>
+    <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/blob-io">BLOB I/O</seealso>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -51,6 +52,7 @@
                 Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteBlob" /> class.
             </summary>
         <remarks>To be added.</remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/blob-io">BLOB I/O</seealso>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -85,6 +87,7 @@
                 Initializes a new instance of the <see cref="T:Microsoft.Data.Sqlite.SqliteBlob" /> class.
             </summary>
         <remarks>To be added.</remarks>
+        <seealso href="https://docs.microsoft.com/dotnet/standard/data/sqlite/blob-io">BLOB I/O</seealso>
       </Docs>
     </Member>
     <Member MemberName="CanRead">
