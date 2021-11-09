@@ -17,6 +17,7 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbTransaction</BaseTypeName>
@@ -49,6 +50,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -62,11 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName="Connection">
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection Connection { get; }" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection Connection { get; }" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Data.Sqlite.SqliteConnection Connection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteTransaction.Connection" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Connection As SqliteConnection" />
       <MemberSignature Language="F#" Value="member this.Connection : Microsoft.Data.Sqlite.SqliteConnection" Usage="Microsoft.Data.Sqlite.SqliteTransaction.Connection" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection? Connection { get; }" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -81,6 +84,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteConnection</ReturnType>
@@ -94,11 +98,12 @@
       </Docs>
     </Member>
     <Member MemberName="DbConnection">
-      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection DbConnection { get; }" />
+      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection DbConnection { get; }" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Data.Common.DbConnection DbConnection" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteTransaction.DbConnection" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property DbConnection As DbConnection" />
       <MemberSignature Language="F#" Value="member this.DbConnection : System.Data.Common.DbConnection" Usage="Microsoft.Data.Sqlite.SqliteTransaction.DbConnection" />
+      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection? DbConnection { get; }" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -113,6 +118,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnection</ReturnType>
@@ -145,6 +151,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -183,16 +190,42 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.IsolationLevel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-                Gets the isolation level for the transaction. This cannot be changed if the transaction is completed or
-                closed.
+                Gets the isolation level for the transaction.
             </summary>
         <value>The isolation level for the transaction.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Release">
+      <MemberSignature Language="C#" Value="public virtual void Release (string savepointName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Release(string savepointName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Release(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Release (savepointName As String)" />
+      <MemberSignature Language="F#" Value="abstract member Release : string -&gt; unit&#xA;override this.Release : string -&gt; unit" Usage="sqliteTransaction.Release savepointName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      </Parameters>
+      <Docs>
+        <param name="savepointName">The name of the savepoint to release.</param>
+        <summary>
+            Destroys a savepoint previously defined in the current transaction. This allows the system to
+            reclaim some resources before the transaction ends.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -216,6 +249,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -224,6 +258,57 @@
       <Docs>
         <summary>
                 Reverts the changes made in the transaction.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rollback">
+      <MemberSignature Language="C#" Value="public virtual void Rollback (string savepointName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Rollback(string savepointName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Rollback(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Rollback (savepointName As String)" />
+      <MemberSignature Language="F#" Value="override this.Rollback : string -&gt; unit" Usage="sqliteTransaction.Rollback savepointName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      </Parameters>
+      <Docs>
+        <param name="savepointName">The name of the savepoint to roll back to.</param>
+        <summary>
+            Rolls back all commands that were executed after the specified savepoint was established.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public virtual void Save (string savepointName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Save(string savepointName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteTransaction.Save(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Save (savepointName As String)" />
+      <MemberSignature Language="F#" Value="abstract member Save : string -&gt; unit&#xA;override this.Save : string -&gt; unit" Usage="sqliteTransaction.Save savepointName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      </Parameters>
+      <Docs>
+        <param name="savepointName">The name of the savepoint to be created.</param>
+        <summary>
+            Creates a savepoint in the transaction. This allows all commands that are executed after the savepoint was
+            established to be rolled back, restoring the transaction state to what it was at the time of the savepoint.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
