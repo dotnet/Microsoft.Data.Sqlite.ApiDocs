@@ -17,6 +17,7 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbParameter</BaseTypeName>
@@ -48,6 +49,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -58,11 +60,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SqliteParameter (string name, Microsoft.Data.Sqlite.SqliteType type);" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string name, Microsoft.Data.Sqlite.SqliteType type);" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype Microsoft.Data.Sqlite.SqliteType type) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, type As SqliteType)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteParameter : string * Microsoft.Data.Sqlite.SqliteType -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="new Microsoft.Data.Sqlite.SqliteParameter (name, type)" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string? name, Microsoft.Data.Sqlite.SqliteType type);" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -77,6 +80,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -92,11 +96,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SqliteParameter (string name, object value);" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string name, object value);" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, value As Object)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteParameter : string * obj -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="new Microsoft.Data.Sqlite.SqliteParameter (name, value)" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string? name, object? value);" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -111,6 +116,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -126,11 +132,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SqliteParameter (string name, Microsoft.Data.Sqlite.SqliteType type, int size);" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string name, Microsoft.Data.Sqlite.SqliteType type, int size);" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype Microsoft.Data.Sqlite.SqliteType type, int32 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, type As SqliteType, size As Integer)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteParameter : string * Microsoft.Data.Sqlite.SqliteType * int -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="new Microsoft.Data.Sqlite.SqliteParameter (name, type, size)" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string? name, Microsoft.Data.Sqlite.SqliteType type, int size);" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -145,6 +152,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -162,11 +170,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SqliteParameter (string name, Microsoft.Data.Sqlite.SqliteType type, int size, string sourceColumn);" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string name, Microsoft.Data.Sqlite.SqliteType type, int size, string sourceColumn);" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype Microsoft.Data.Sqlite.SqliteType type, int32 size, string sourceColumn) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, type As SqliteType, size As Integer, sourceColumn As String)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteParameter : string * Microsoft.Data.Sqlite.SqliteType * int * string -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="new Microsoft.Data.Sqlite.SqliteParameter (name, type, size, sourceColumn)" />
+      <MemberSignature Language="C#" Value="public SqliteParameter (string? name, Microsoft.Data.Sqlite.SqliteType type, int size, string? sourceColumn);" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -181,6 +190,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -219,6 +229,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.DbType</ReturnType>
@@ -251,6 +262,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.ParameterDirection</ReturnType>
@@ -283,6 +295,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -315,6 +328,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -347,6 +361,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -379,6 +394,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -411,6 +427,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -443,6 +460,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -475,6 +493,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -532,6 +551,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteType</ReturnType>
@@ -545,11 +565,12 @@
       </Docs>
     </Member>
     <Member MemberName="Value">
-      <MemberSignature Language="C#" Value="public override object Value { get; set; }" />
+      <MemberSignature Language="C#" Value="public override object Value { get; set; }" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".property instance object Value" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteParameter.Value" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property Value As Object" />
       <MemberSignature Language="F#" Value="member this.Value : obj with get, set" Usage="Microsoft.Data.Sqlite.SqliteParameter.Value" />
+      <MemberSignature Language="C#" Value="public override object? Value { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -564,6 +585,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>

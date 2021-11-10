@@ -17,6 +17,7 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbException</BaseTypeName>
@@ -30,11 +31,12 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SqliteException (string message, int errorCode);" />
+      <MemberSignature Language="C#" Value="public SqliteException (string message, int errorCode);" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0;msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, int32 errorCode) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, errorCode As Integer)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteException : string * int -&gt; Microsoft.Data.Sqlite.SqliteException" Usage="new Microsoft.Data.Sqlite.SqliteException (message, errorCode)" />
+      <MemberSignature Language="C#" Value="public SqliteException (string? message, int errorCode);" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -49,6 +51,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
@@ -64,11 +67,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SqliteException (string message, int errorCode, int extendedErrorCode);" />
+      <MemberSignature Language="C#" Value="public SqliteException (string message, int errorCode, int extendedErrorCode);" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, int32 errorCode, int32 extendedErrorCode) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, errorCode As Integer, extendedErrorCode As Integer)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteException : string * int * int -&gt; Microsoft.Data.Sqlite.SqliteException" Usage="new Microsoft.Data.Sqlite.SqliteException (message, errorCode, extendedErrorCode)" />
+      <MemberSignature Language="C#" Value="public SqliteException (string? message, int errorCode, int extendedErrorCode);" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -77,11 +81,12 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
-        <Parameter Name="errorCode" Type="System.Int32" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
-        <Parameter Name="extendedErrorCode" Type="System.Int32" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
+        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+        <Parameter Name="errorCode" Type="System.Int32" Index="1" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+        <Parameter Name="extendedErrorCode" Type="System.Int32" Index="2" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
       </Parameters>
       <Docs>
         <param name="message">The message to display for the exception. Can be null.</param>
@@ -113,6 +118,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -139,6 +145,7 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -152,11 +159,12 @@
       </Docs>
     </Member>
     <Member MemberName="ThrowExceptionForRC">
-      <MemberSignature Language="C#" Value="public static void ThrowExceptionForRC (int rc, SQLitePCL.sqlite3 db);" />
+      <MemberSignature Language="C#" Value="public static void ThrowExceptionForRC (int rc, SQLitePCL.sqlite3 db);" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ThrowExceptionForRC(int32 rc, class SQLitePCL.sqlite3 db) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(System.Int32,SQLitePCL.sqlite3)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ThrowExceptionForRC (rc As Integer, db As sqlite3)" />
       <MemberSignature Language="F#" Value="static member ThrowExceptionForRC : int * SQLitePCL.sqlite3 -&gt; unit" Usage="Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC (rc, db)" />
+      <MemberSignature Language="C#" Value="public static void ThrowExceptionForRC (int rc, SQLitePCL.sqlite3? db);" FrameworkAlternate="msdata-sqlite-6.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -167,13 +175,14 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rc" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
-        <Parameter Name="db" Type="SQLitePCL.sqlite3" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
+        <Parameter Name="rc" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+        <Parameter Name="db" Type="SQLitePCL.sqlite3" Index="1" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
       </Parameters>
       <Docs>
         <param name="rc">The SQLite error code corresponding to the desired exception.</param>
