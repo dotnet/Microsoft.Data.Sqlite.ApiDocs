@@ -18,6 +18,7 @@
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbTransaction</BaseTypeName>
@@ -51,6 +52,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -69,7 +71,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteTransaction.Connection" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Connection As SqliteConnection" />
       <MemberSignature Language="F#" Value="member this.Connection : Microsoft.Data.Sqlite.SqliteConnection" Usage="Microsoft.Data.Sqlite.SqliteTransaction.Connection" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection? Connection { get; }" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection? Connection { get; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -85,6 +87,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteConnection</ReturnType>
@@ -103,7 +106,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteTransaction.DbConnection" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property DbConnection As DbConnection" />
       <MemberSignature Language="F#" Value="member this.DbConnection : System.Data.Common.DbConnection" Usage="Microsoft.Data.Sqlite.SqliteTransaction.DbConnection" />
-      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection? DbConnection { get; }" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection? DbConnection { get; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -119,6 +122,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnection</ReturnType>
@@ -152,6 +156,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -191,6 +196,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.IsolationLevel</ReturnType>
@@ -213,12 +219,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0" />
+        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       </Parameters>
       <Docs>
         <param name="savepointName">The name of the savepoint to release.</param>
@@ -250,6 +257,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -272,12 +280,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0" />
+        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       </Parameters>
       <Docs>
         <param name="savepointName">The name of the savepoint to roll back to.</param>
@@ -297,12 +306,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0" />
+        <Parameter Name="savepointName" Type="System.String" Index="0" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       </Parameters>
       <Docs>
         <param name="savepointName">The name of the savepoint to be created.</param>
