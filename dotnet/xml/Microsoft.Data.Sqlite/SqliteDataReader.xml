@@ -18,6 +18,7 @@
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbDataReader</BaseTypeName>
@@ -51,6 +52,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -84,6 +86,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -117,6 +120,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -156,6 +160,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -189,6 +194,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -226,6 +232,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte</ReturnType>
@@ -248,7 +255,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetBytes (ordinal As Integer, dataOffset As Long, buffer As Byte(), bufferOffset As Integer, length As Integer) As Long" />
       <MemberSignature Language="F#" Value="override this.GetBytes : int * int64 * byte[] * int * int -&gt; int64" Usage="sqliteDataReader.GetBytes (ordinal, dataOffset, buffer, bufferOffset, length)" />
-      <MemberSignature Language="C#" Value="public override long GetBytes (int ordinal, long dataOffset, byte[]? buffer, int bufferOffset, int length);" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      <MemberSignature Language="C#" Value="public override long GetBytes (int ordinal, long dataOffset, byte[]? buffer, int bufferOffset, int length);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -264,6 +271,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -309,6 +317,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
@@ -331,7 +340,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetChars (ordinal As Integer, dataOffset As Long, buffer As Char(), bufferOffset As Integer, length As Integer) As Long" />
       <MemberSignature Language="F#" Value="override this.GetChars : int * int64 * char[] * int * int -&gt; int64" Usage="sqliteDataReader.GetChars (ordinal, dataOffset, buffer, bufferOffset, length)" />
-      <MemberSignature Language="C#" Value="public override long GetChars (int ordinal, long dataOffset, char[]? buffer, int bufferOffset, int length);" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      <MemberSignature Language="C#" Value="public override long GetChars (int ordinal, long dataOffset, char[]? buffer, int bufferOffset, int length);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -347,6 +356,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -392,6 +402,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -430,6 +441,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -452,10 +464,10 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteDataReader.GetDateTimeOffset(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetDateTimeOffset (ordinal As Integer) As DateTimeOffset" FrameworkAlternate="msdata-sqlite-2.0.0" />
       <MemberSignature Language="F#" Value="member this.GetDateTimeOffset : int -&gt; DateTimeOffset" Usage="sqliteDataReader.GetDateTimeOffset ordinal" FrameworkAlternate="msdata-sqlite-2.0.0" />
-      <MemberSignature Language="C#" Value="public virtual DateTimeOffset GetDateTimeOffset (int ordinal);" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTimeOffset GetDateTimeOffset(int32 ordinal) cil managed" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDateTimeOffset (ordinal As Integer) As DateTimeOffset" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
-      <MemberSignature Language="F#" Value="abstract member GetDateTimeOffset : int -&gt; DateTimeOffset&#xA;override this.GetDateTimeOffset : int -&gt; DateTimeOffset" Usage="sqliteDataReader.GetDateTimeOffset ordinal" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+      <MemberSignature Language="C#" Value="public virtual DateTimeOffset GetDateTimeOffset (int ordinal);" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTimeOffset GetDateTimeOffset(int32 ordinal) cil managed" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDateTimeOffset (ordinal As Integer) As DateTimeOffset" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="F#" Value="abstract member GetDateTimeOffset : int -&gt; DateTimeOffset&#xA;override this.GetDateTimeOffset : int -&gt; DateTimeOffset" Usage="sqliteDataReader.GetDateTimeOffset ordinal" FrameworkAlternate="msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -467,12 +479,13 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column ordinal.</param>
@@ -504,6 +517,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Decimal</ReturnType>
@@ -541,6 +555,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -578,6 +593,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -612,6 +628,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -649,6 +666,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -690,6 +708,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
@@ -727,6 +746,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
@@ -764,6 +784,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int16</ReturnType>
@@ -801,6 +822,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -838,6 +860,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -875,6 +898,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -912,6 +936,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -947,6 +972,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.DataTable</ReturnType>
@@ -974,12 +1000,13 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column ordinal.</param>
@@ -1013,6 +1040,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1040,12 +1068,13 @@
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.TextReader</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column ordinal.</param>
@@ -1071,12 +1100,13 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column ordinal.</param>
@@ -1108,6 +1138,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -1130,7 +1161,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteDataReader.GetValues(System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetValues (values As Object()) As Integer" />
       <MemberSignature Language="F#" Value="override this.GetValues : obj[] -&gt; int" Usage="sqliteDataReader.GetValues values" />
-      <MemberSignature Language="C#" Value="public override int GetValues (object?[] values);" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      <MemberSignature Language="C#" Value="public override int GetValues (object?[] values);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1146,6 +1177,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1169,10 +1201,10 @@
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Handle As IntPtr" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0" />
       <MemberSignature Language="F#" Value="member this.Handle : nativeint" Usage="Microsoft.Data.Sqlite.SqliteDataReader.Handle" FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0" />
       <MemberSignature Language="C#" Value="public virtual SQLitePCL.sqlite3_stmt Handle { get; }" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0" />
-      <MemberSignature Language="ILAsm" Value=".property instance class SQLitePCL.sqlite3_stmt Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Handle As sqlite3_stmt" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
-      <MemberSignature Language="F#" Value="member this.Handle : SQLitePCL.sqlite3_stmt" Usage="Microsoft.Data.Sqlite.SqliteDataReader.Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0" />
-      <MemberSignature Language="C#" Value="public virtual SQLitePCL.sqlite3_stmt? Handle { get; }" FrameworkAlternate="msdata-sqlite-6.0.0" />
+      <MemberSignature Language="ILAsm" Value=".property instance class SQLitePCL.sqlite3_stmt Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Handle As sqlite3_stmt" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="F#" Value="member this.Handle : SQLitePCL.sqlite3_stmt" Usage="Microsoft.Data.Sqlite.SqliteDataReader.Handle" FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="public virtual SQLitePCL.sqlite3_stmt? Handle { get; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -1188,10 +1220,11 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType FrameworkAlternate="msdata-sqlite-1.0.0;msdata-sqlite-1.1.0">System.IntPtr</ReturnType>
-        <ReturnType FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0">SQLitePCL.sqlite3_stmt</ReturnType>
+        <ReturnType FrameworkAlternate="msdata-sqlite-2.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.0.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0">SQLitePCL.sqlite3_stmt</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -1222,6 +1255,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1255,6 +1289,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1288,6 +1323,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1326,6 +1362,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -1363,6 +1400,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -1400,6 +1438,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1436,6 +1475,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1471,6 +1511,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
