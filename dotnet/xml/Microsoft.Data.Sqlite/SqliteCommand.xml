@@ -19,11 +19,22 @@
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbCommand</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(2)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(2)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
                 Represents a SQL statement to be executed against a SQLite database.
@@ -39,11 +50,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -52,6 +60,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -67,15 +76,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (commandText As String)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteCommand : string -&gt; Microsoft.Data.Sqlite.SqliteCommand" Usage="new Microsoft.Data.Sqlite.SqliteCommand commandText" />
-      <MemberSignature Language="C#" Value="public SqliteCommand (string? commandText);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="public SqliteCommand (string? commandText);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -84,6 +90,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" />
@@ -102,15 +109,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (commandText As String, connection As SqliteConnection)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteCommand : string * Microsoft.Data.Sqlite.SqliteConnection -&gt; Microsoft.Data.Sqlite.SqliteCommand" Usage="new Microsoft.Data.Sqlite.SqliteCommand (commandText, connection)" />
-      <MemberSignature Language="C#" Value="public SqliteCommand (string? commandText, Microsoft.Data.Sqlite.SqliteConnection? connection);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="public SqliteCommand (string? commandText, Microsoft.Data.Sqlite.SqliteConnection? connection);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -119,6 +123,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" />
@@ -139,15 +144,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection,Microsoft.Data.Sqlite.SqliteTransaction)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (commandText As String, connection As SqliteConnection, transaction As SqliteTransaction)" />
       <MemberSignature Language="F#" Value="new Microsoft.Data.Sqlite.SqliteCommand : string * Microsoft.Data.Sqlite.SqliteConnection * Microsoft.Data.Sqlite.SqliteTransaction -&gt; Microsoft.Data.Sqlite.SqliteCommand" Usage="new Microsoft.Data.Sqlite.SqliteCommand (commandText, connection, transaction)" />
-      <MemberSignature Language="C#" Value="public SqliteCommand (string? commandText, Microsoft.Data.Sqlite.SqliteConnection? connection, Microsoft.Data.Sqlite.SqliteTransaction? transaction);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="public SqliteCommand (string? commandText, Microsoft.Data.Sqlite.SqliteConnection? connection, Microsoft.Data.Sqlite.SqliteTransaction? transaction);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -156,6 +158,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" />
@@ -181,11 +184,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -194,6 +194,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -215,11 +216,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -228,7 +226,22 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[set: System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -249,11 +262,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -262,6 +272,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -286,11 +297,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -299,6 +307,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.CommandType</ReturnType>
@@ -318,15 +327,12 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteCommand.Connection" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Connection As SqliteConnection" />
       <MemberSignature Language="F#" Value="member this.Connection : Microsoft.Data.Sqlite.SqliteConnection with get, set" Usage="Microsoft.Data.Sqlite.SqliteCommand.Connection" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection? Connection { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteConnection? Connection { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -335,6 +341,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteConnection</ReturnType>
@@ -356,11 +363,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -369,7 +373,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
       </ReturnValue>
@@ -391,11 +402,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -404,7 +412,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
       </ReturnValue>
@@ -423,7 +438,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteCommand.DataReader" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Property DataReader As SqliteDataReader" />
       <MemberSignature Language="F#" Value="member this.DataReader : Microsoft.Data.Sqlite.SqliteDataReader with get, set" Usage="Microsoft.Data.Sqlite.SqliteCommand.DataReader" />
-      <MemberSignature Language="C#" Value="protected internal virtual Microsoft.Data.Sqlite.SqliteDataReader? DataReader { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="protected internal virtual Microsoft.Data.Sqlite.SqliteDataReader? DataReader { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -434,6 +449,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteDataReader</ReturnType>
@@ -452,15 +468,12 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteCommand.DbConnection" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Property DbConnection As DbConnection" />
       <MemberSignature Language="F#" Value="member this.DbConnection : System.Data.Common.DbConnection with get, set" Usage="Microsoft.Data.Sqlite.SqliteCommand.DbConnection" />
-      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection? DbConnection { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbConnection? DbConnection { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -469,6 +482,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnection</ReturnType>
@@ -490,11 +504,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -503,7 +514,18 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameterCollection</ReturnType>
       </ReturnValue>
@@ -521,15 +543,12 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteCommand.DbTransaction" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Property DbTransaction As DbTransaction" />
       <MemberSignature Language="F#" Value="member this.DbTransaction : System.Data.Common.DbTransaction with get, set" Usage="Microsoft.Data.Sqlite.SqliteCommand.DbTransaction" />
-      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbTransaction? DbTransaction { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbTransaction? DbTransaction { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -538,6 +557,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbTransaction</ReturnType>
@@ -559,11 +579,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -572,6 +589,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -600,12 +618,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="msdata-sqlite-3.0.0;msdata-sqlite-2.1.0;msdata-sqlite-2.2.0;msdata-sqlite-3.1.0;msdata-sqlite-5.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       </Parameters>
       <Docs>
         <param name="disposing">
@@ -627,11 +646,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -640,7 +656,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbDataReader</ReturnType>
       </ReturnValue>
@@ -665,11 +688,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -678,7 +698,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Data.Common.DbDataReader&gt;</ReturnType>
       </ReturnValue>
@@ -706,11 +733,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -719,6 +743,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -742,11 +767,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -755,7 +777,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteDataReader</ReturnType>
       </ReturnValue>
@@ -778,11 +807,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -791,7 +817,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteDataReader</ReturnType>
       </ReturnValue>
@@ -817,11 +850,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -830,7 +860,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
       </ReturnValue>
@@ -854,11 +891,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -867,7 +901,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
       </ReturnValue>
@@ -894,11 +935,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -907,7 +945,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
       </ReturnValue>
@@ -935,11 +980,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -948,7 +990,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Data.Sqlite.SqliteDataReader&gt;</ReturnType>
       </ReturnValue>
@@ -975,15 +1024,12 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ExecuteScalar () As Object" />
       <MemberSignature Language="F#" Value="override this.ExecuteScalar : unit -&gt; obj" Usage="sqliteCommand.ExecuteScalar " />
-      <MemberSignature Language="C#" Value="public override object? ExecuteScalar ();" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="public override object? ExecuteScalar ();" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -992,6 +1038,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -1015,11 +1062,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -1028,7 +1072,18 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="msdata-sqlite-8.0.0">
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameterCollection</ReturnType>
       </ReturnValue>
@@ -1049,11 +1104,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -1062,6 +1114,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1080,15 +1133,12 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Data.Sqlite.SqliteCommand.Transaction" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Transaction As SqliteTransaction" />
       <MemberSignature Language="F#" Value="member this.Transaction : Microsoft.Data.Sqlite.SqliteTransaction with get, set" Usage="Microsoft.Data.Sqlite.SqliteCommand.Transaction" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteTransaction? Transaction { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteTransaction? Transaction { get; set; }" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -1097,6 +1147,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteTransaction</ReturnType>
@@ -1118,11 +1169,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.1.0</AssemblyVersion>
         <AssemblyVersion>2.1.11.0</AssemblyVersion>
         <AssemblyVersion>2.2.6.0</AssemblyVersion>
@@ -1131,6 +1179,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.UpdateRowSource</ReturnType>
