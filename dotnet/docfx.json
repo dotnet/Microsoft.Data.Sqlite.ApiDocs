@@ -39,13 +39,13 @@
       ]
     },
     "globalMetadata": {
+      "ms.service": "entity-framework",
       "feedback_system": "Standard",
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "author": "dotnet-bot",
       "ms.author": "bricelam",
       "ms.date": "12/03/2019",
-      "ms.prod": "entity-framework",
       "products": [
         "https://authoring-docs-microsoft.poolparty.biz/devrel/7696cda6-0510-47f6-8302-71bb5d2e28cf",
         "https://authoring-docs-microsoft.poolparty.biz/devrel/56a03cf0-cabf-4e70-800b-dcb9ff39361c",
