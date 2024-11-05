@@ -1,0 +1,1097 @@
+{
+  "Assembly": "Microsoft.Data.Sqlite",
+  "GUID": "54CB09BF99734F5FB62AC7EB5505BD70FFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L22C9-L34C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L22C9-L41C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L49C15-L53C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection,Microsoft.Data.Sqlite.SqliteTransaction)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L62C15-L63C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L204C13-L207C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.CreateParameter",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L214C16-L214C37"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.CreateDbParameter",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L221C16-L221C33"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Prepare",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L228C13-L260C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L268C16-L268C54"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L285C13-L395C111"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L404C16-L404C39"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L415C16-L415C83"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L427C16-L427C78"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L439C16-L439C68"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L455C13-L457C61"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L478C13-L490C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L500C13-L515C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Cancel",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L522C9-L522C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandType",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L72C20-L72C36"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandText",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L88C20-L88C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Connection",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L110C20-L110C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbConnection",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L135C20-L135C30"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Transaction",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L143C60-L143C64"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbTransaction",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L151C20-L151C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Parameters",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L160C16-L160C33"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbParameterCollection",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L167C16-L167C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandTimeout",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L176C46-L176C50"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DesignTimeVisible",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L182C50-L182C54"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.UpdatedRowSource",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L188C60-L188C64"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DataReader",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L194C66-L194C70"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteCommand",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,System.Func{``0,``0},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L18C16-L18C140"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,System.Func{``1,``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L29C16-L29C164"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``3(System.String,System.Func{``2,``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L41C16-L41C188"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``4(System.String,System.Func{``3,``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L54C16-L54C212"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``5(System.String,System.Func{``4,``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L68C16-L68C236"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``6(System.String,System.Func{``5,``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L83C16-L83C260"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``7(System.String,System.Func{``6,``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L99C16-L99C284"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``8(System.String,System.Func{``7,``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L116C16-L116C308"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``9(System.String,System.Func{``8,``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L134C16-L134C332"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``10(System.String,System.Func{``9,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L153C16-L153C356"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``11(System.String,System.Func{``10,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L173C16-L173C382"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``12(System.String,System.Func{``11,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L194C16-L194C408"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``13(System.String,System.Func{``12,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L216C16-L216C434"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``14(System.String,System.Func{``13,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L239C16-L239C460"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``15(System.String,System.Func{``14,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L263C16-L263C486"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``16(System.String,System.Func{``15,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L288C16-L288C512"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,System.Func{``0,System.Object[],``0},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L298C16-L298C155"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,``0,System.Func{``0,``0},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L309C16-L309C137"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,``1,System.Func{``1,``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L321C16-L321C161"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``3(System.String,``2,System.Func{``2,``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L334C16-L334C185"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``4(System.String,``3,System.Func{``3,``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L348C16-L348C209"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``5(System.String,``4,System.Func{``4,``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L363C16-L363C233"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``6(System.String,``5,System.Func{``5,``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L379C16-L379C257"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``7(System.String,``6,System.Func{``6,``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L396C16-L396C281"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``8(System.String,``7,System.Func{``7,``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L414C16-L414C305"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``9(System.String,``8,System.Func{``8,``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L433C16-L433C329"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``10(System.String,``9,System.Func{``9,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L453C16-L453C353"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``11(System.String,``10,System.Func{``10,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L474C16-L474C379"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``12(System.String,``11,System.Func{``11,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L496C16-L496C405"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``13(System.String,``12,System.Func{``12,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L519C16-L519C431"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``14(System.String,``13,System.Func{``13,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L543C16-L543C457"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``15(System.String,``14,System.Func{``14,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L568C16-L568C483"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``16(System.String,``15,System.Func{``15,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L594C16-L594C509"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,``0,System.Func{``0,System.Object[],``0},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L605C16-L605C152"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,``0,System.Func{``0,``0},System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L621C16-L621C145"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``3(System.String,``1,System.Func{``1,``0,``1},System.Func{``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L638C16-L638C169"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``4(System.String,``2,System.Func{``2,``0,``1,``2},System.Func{``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L656C16-L656C193"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``5(System.String,``3,System.Func{``3,``0,``1,``2,``3},System.Func{``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L675C16-L675C217"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``6(System.String,``4,System.Func{``4,``0,``1,``2,``3,``4},System.Func{``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L695C16-L695C241"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``7(System.String,``5,System.Func{``5,``0,``1,``2,``3,``4,``5},System.Func{``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L716C16-L716C265"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``8(System.String,``6,System.Func{``6,``0,``1,``2,``3,``4,``5,``6},System.Func{``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L738C16-L738C289"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``9(System.String,``7,System.Func{``7,``0,``1,``2,``3,``4,``5,``6,``7},System.Func{``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L761C16-L761C313"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``10(System.String,``8,System.Func{``8,``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Func{``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L785C16-L785C337"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``11(System.String,``9,System.Func{``9,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Func{``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L810C16-L810C361"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``12(System.String,``10,System.Func{``10,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Func{``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L836C16-L836C387"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``13(System.String,``11,System.Func{``11,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Func{``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L863C16-L863C413"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``14(System.String,``12,System.Func{``12,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Func{``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L891C16-L891C439"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``15(System.String,``13,System.Func{``13,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Func{``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L920C16-L920C465"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``16(System.String,``14,System.Func{``14,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Func{``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L950C16-L950C491"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``17(System.String,``15,System.Func{``15,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Func{``15,``16},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L981C16-L981C517"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,``0,System.Func{``0,System.Object[],``0},System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L997C16-L997C160"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``1(System.String,System.Func{``0},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L18C16-L18C126"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``2(System.String,System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L29C16-L29C148"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``3(System.String,System.Func{``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L41C16-L41C172"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``4(System.String,System.Func{``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L54C16-L54C196"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``5(System.String,System.Func{``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L68C16-L68C220"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``6(System.String,System.Func{``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L83C16-L83C244"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``7(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L99C16-L99C268"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``8(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L116C16-L116C292"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``9(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L134C16-L134C316"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``10(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L153C16-L153C340"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``11(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L173C16-L173C366"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``12(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L194C16-L194C392"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``13(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L216C16-L216C418"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``14(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L239C16-L239C444"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``15(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L263C16-L263C470"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``16(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L288C16-L288C496"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``17(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L314C16-L314C522"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``1(System.String,System.Func{System.Object[],``0},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L324C16-L324C139"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``2(System.String,``0,System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L336C16-L336C128"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``3(System.String,``0,System.Func{``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L349C16-L349C152"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``4(System.String,``0,System.Func{``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L363C16-L363C176"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``5(System.String,``0,System.Func{``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L378C16-L378C200"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``6(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L394C16-L394C224"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``7(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L411C16-L411C248"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``8(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L429C16-L429C272"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``9(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L448C16-L448C296"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``10(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L468C16-L468C320"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``11(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L489C16-L489C344"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``12(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L511C16-L511C370"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``13(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L534C16-L534C396"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``14(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L558C16-L558C422"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``15(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L583C16-L583C448"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``16(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L609C16-L609C474"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``17(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L636C16-L636C500"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``2(System.String,``0,System.Func{``0,System.Object[],``1},System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L648C16-L648C143"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.#ctor",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L23C9-L37C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.#ctor(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L23C9-L45C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Open",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L154C13-L228C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Close",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L235C13-L256C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L266C13-L272C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCommand",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L283C16-L283C115"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateDbCommand",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L290C16-L290C31"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCollation(System.String,System.Comparison{System.String})",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L313C16-L313C141"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCollation``1(System.String,``0,System.Func{``0,System.String,System.String,System.Int32})",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L324C13-L337C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L344C16-L344C60"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L352C16-L352C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L361C13-L370C78"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.ChangeDatabase(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L379C16-L379C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.EnableExtensions(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L388C13-L396C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BackupDatabase(Microsoft.Data.Sqlite.SqliteConnection)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L403C16-L403C79"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BackupDatabase(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L413C13-L451C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Handle",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L53C16-L53C19"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.ConnectionString",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L62C20-L62C37"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Database",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L82C16-L82C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.DataSource",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L92C17-L98C73"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.DefaultTimeout",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L108C45-L108C49"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.ServerVersion",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L115C16-L115C40"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.State",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L122C16-L122C22"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.DbProviderFactory",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L129C16-L129C38"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Transaction",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L135C68-L135C72"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteConnection",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.#ctor",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L38C9-L67C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.#ctor(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L38C9-L76C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Clear",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L209C13-L215C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ContainsKey(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L223C16-L223C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Remove(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L232C13-L240C25"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ShouldSerialize(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L249C16-L249C113"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.TryGetValue(System.String,System.Object@)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L259C13-L268C25"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.DataSource",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L84C20-L84C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Mode",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L94C20-L94C25"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Keys",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L103C16-L103C72"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Values",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L113C17-L119C63"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Cache",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L130C20-L130C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Item(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L141C20-L141C44"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetEnumerator",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L114C16-L114C58"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Read",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L122C13-L140C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.NextResult",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L149C13-L161C25"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Close",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L168C16-L168C29"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L178C13-L203C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetName(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L212C13-L217C45"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetOrdinal(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L226C16-L226C40"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDataTypeName(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L238C13-L243C53"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFieldType(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L253C13-L258C50"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.IsDBNull(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L267C16-L271C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetBoolean(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L279C16-L279C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetByte(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L287C16-L287C40"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetChar(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L295C16-L295C40"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDateTime(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L303C16-L303C44"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDateTimeOffset(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L311C16-L311C50"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetTimeSpan(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L319C16-L319C44"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDecimal(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L327C16-L327C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDouble(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L335C16-L335C42"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFloat(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L343C16-L343C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetGuid(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L351C16-L351C40"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt16(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L359C16-L359C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt32(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L367C16-L367C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt64(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L375C16-L375C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetString(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L383C16-L383C42"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L395C16-L395C83"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L407C16-L407C83"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetStream(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L415C16-L415C42"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFieldValue``1(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L425C13-L431C54"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetValue(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L441C13-L450C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetValues(System.Object[])",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L459C16-L459C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetSchemaTable",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L467C13-L582C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Depth",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L54C16-L54C17"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.FieldCount",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L61C16-L63C37"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Handle",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L71C16-L71C21"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.HasRows",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L78C16-L78C24"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.IsClosed",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L85C16-L85C23"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.RecordsAffected",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L91C47-L91C51"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Item(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L99C16-L99C29"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Item(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L107C16-L107C32"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteDataReader",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L22C15-L23C12"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L32C15-L36C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(System.Int32,SQLitePCL.sqlite3)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L62C13-L82C104"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteException.SqliteErrorCode",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L43C46-L43C50"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteException.SqliteExtendedErrorCode",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L50C54-L50C58"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteException",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteException.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateCommand",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L27C16-L27C35"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnection",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L34C16-L34C38"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnectionStringBuilder",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L41C16-L41C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateParameter",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L48C16-L48C37"
+        },
+        {
+          "DocsId": "F:Microsoft.Data.Sqlite.SqliteFactory.Instance",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteFactory",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L21C9-L31C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,System.Object)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L21C9-L47C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L21C9-L63C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L72C15-L73C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L83C15-L84C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.ResetDbType",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L199C16-L199C33"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.ResetSqliteType",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L206C13-L208C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.DbType",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L92C41-L92C45"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SqliteType",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L102C20-L102C74"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Direction",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L112C20-L112C44"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.IsNullable",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L126C43-L126C47"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.ParameterName",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L134C20-L134C34"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Size",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L152C20-L157C29"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SourceColumn",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L175C47-L175C51"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SourceColumnNullMapping",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L181C56-L181C60"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Value",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L191C20-L191C26"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteParameter",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.#ctor",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L19C9-L26C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.Object)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L79C13-L81C30"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L91C13-L93C26"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L103C16-L103C61"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L113C16-L113C67"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L126C16-L126C81"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Array)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L135C16-L135C56"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Data.Sqlite.SqliteParameter})",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L142C16-L142C44"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddWithValue(System.String,System.Object)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L152C13-L155C30"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Clear",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L162C16-L162C35"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.Object)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L170C16-L170C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L178C16-L178C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L186C16-L186C36"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(System.Array,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L196C16-L196C55"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(Microsoft.Data.Sqlite.SqliteParameter[],System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L204C16-L204C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetEnumerator",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L211C16-L211C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L219C16-L219C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L227C16-L227C59"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.Object)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L235C16-L235C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L243C16-L243C42"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L252C18-L260C23"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,System.Object)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L269C16-L269C53"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L277C16-L277C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(System.Object)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L284C16-L284C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L291C16-L291C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L298C16-L298C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L305C16-L305C55"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.Int32,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L313C16-L313C52"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L321C16-L321C66"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Count",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L33C16-L33C33"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.SyncRoot",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L40C16-L40C51"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Item(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L49C20-L49C38"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Item(System.String)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L68C20-L68C55"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteParameterCollection",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Commit",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L92C13-L100C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Rollback",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L107C13-L113C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L123C13-L129C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.Connection",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L60C16-L60C27"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.DbConnection",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L67C16-L67C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.IsolationLevel",
+          "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L78C16-L85C54"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteTransaction",
+      "SourceLink": "https://github.com/aspnet/EntityFrameworkCore/blob/01da710cdeff0431fc60379580aa63f335fbc165/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs"
+    }
+  ]
+}

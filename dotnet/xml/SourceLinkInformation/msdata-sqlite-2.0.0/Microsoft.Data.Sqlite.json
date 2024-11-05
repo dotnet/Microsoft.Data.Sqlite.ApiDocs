@@ -1,0 +1,709 @@
+{
+  "Assembly": "Microsoft.Data.Sqlite",
+  "GUID": "5B69D027D1E3410B8ECC56BEAD6E8AF2FFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L22C9-L30C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L22C9-L37C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L45C15-L46C39"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection,Microsoft.Data.Sqlite.SqliteTransaction)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L55C15-L56C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.CreateParameter",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L153C16-L153C37"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.CreateDbParameter",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L160C16-L160C33"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Prepare",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L167C9-L167C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L175C16-L175C54"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L190C13-L311C104"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L320C16-L320C39"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L331C16-L331C83"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L343C16-L343C78"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L355C16-L355C68"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L371C13-L373C61"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L394C13-L406C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L416C13-L431C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Cancel",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L438C9-L438C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandType",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L65C20-L65C36"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandText",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L79C46-L79C50"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Connection",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L85C58-L85C62"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbConnection",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L93C20-L93C30"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Transaction",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L101C60-L101C64"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbTransaction",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L109C20-L109C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Parameters",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L118C16-L118C33"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbParameterCollection",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L125C16-L125C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandTimeout",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L134C46-L134C50"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DesignTimeVisible",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L140C50-L140C54"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.UpdatedRowSource",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L146C60-L146C64"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteCommand",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.#ctor",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L32C9-L34C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.#ctor(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L41C9-L42C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Open",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L135C13-L209C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Close",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L216C13-L226C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L236C13-L242C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCommand",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L253C16-L253C82"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateDbCommand",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L260C16-L260C31"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCollation(System.String,System.Comparison{System.String})",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L268C16-L268C149"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCollation``1(System.String,``0,System.Func{``0,System.String,System.String,System.Int32})",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L279C13-L292C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L299C16-L299C60"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L307C16-L307C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L316C13-L325C78"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.ChangeDatabase(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L334C16-L334C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.EnableExtensions(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L343C13-L351C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Handle",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L50C16-L50C19"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.ConnectionString",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L59C20-L59C37"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Database",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L79C16-L79C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.DataSource",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L89C17-L95C73"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.ServerVersion",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L104C16-L104C40"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.State",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L111C16-L111C22"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Transaction",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L117C68-L117C72"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteConnection",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.#ctor",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L38C9-L67C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.#ctor(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L38C9-L76C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Clear",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L209C13-L215C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ContainsKey(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L223C16-L223C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Remove(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L232C13-L240C25"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ShouldSerialize(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L249C16-L249C113"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.TryGetValue(System.String,System.Object@)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L259C13-L268C25"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.DataSource",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L84C20-L84C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Mode",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L94C20-L94C25"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Keys",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L103C16-L103C72"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Values",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L113C17-L119C63"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Cache",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L130C20-L130C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Item(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L141C20-L141C44"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetEnumerator",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L114C16-L114C58"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Read",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L122C13-L139C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.NextResult",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L148C13-L159C25"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Close",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L166C16-L166C29"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L176C13-L198C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetName(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L207C13-L220C25"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetOrdinal(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L230C18-L239C86"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDataTypeName(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L252C13-L287C38"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFieldType(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L298C13-L323C40"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.IsDBNull(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L346C16-L350C64"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetBoolean(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L358C16-L358C38"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetByte(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L366C16-L366C39"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetChar(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L374C16-L374C39"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDateTime(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L383C13-L390C93"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDateTimeOffset(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L401C13-L408C99"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDecimal(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L418C16-L418C129"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDouble(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L426C16-L428C60"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFloat(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L436C16-L436C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetGuid(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L445C13-L459C57"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt16(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L469C16-L469C40"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt32(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L477C16-L477C38"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt64(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L485C16-L487C59"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetString(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L495C16-L497C58"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L509C16-L509C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L521C16-L521C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFieldValue``1(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L531C13-L618C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetValue(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L628C13-L658C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetValues(System.Object[])",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L670C18-L675C22"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Depth",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L54C16-L54C17"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.FieldCount",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L61C16-L63C50"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Handle",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L71C16-L71C21"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.HasRows",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L78C16-L78C24"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.IsClosed",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L85C16-L85C23"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.RecordsAffected",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L91C47-L91C51"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Item(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L99C16-L99C42"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Item(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L107C16-L107C33"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteDataReader",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L22C15-L23C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(System.Int32,SQLitePCL.sqlite3)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L42C13-L53C85"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteException.SqliteErrorCode",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L30C46-L30C50"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteException",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteException.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateCommand",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L27C16-L27C35"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnection",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L34C16-L34C38"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnectionStringBuilder",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L41C16-L41C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateParameter",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L48C16-L48C37"
+        },
+        {
+          "DocsId": "F:Microsoft.Data.Sqlite.SqliteFactory.Instance",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteFactory",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L22C9-L32C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,System.Object)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L22C9-L48C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L22C9-L64C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L73C15-L74C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L84C15-L85C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.ResetDbType",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L181C16-L181C33"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.ResetSqliteType",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L188C13-L190C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.DbType",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L93C41-L93C45"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SqliteType",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L101C48-L101C52"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Direction",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L109C20-L109C44"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.IsNullable",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L123C43-L123C47"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.ParameterName",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L131C20-L131C34"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Size",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L147C36-L147C40"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SourceColumn",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L153C47-L153C51"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SourceColumnNullMapping",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L159C56-L159C60"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Value",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L169C20-L169C26"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteParameter",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.#ctor",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L19C9-L26C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.Object)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L79C13-L81C30"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L91C13-L93C26"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L103C16-L103C61"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L113C16-L113C67"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L126C16-L126C81"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Array)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L135C16-L135C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Data.Sqlite.SqliteParameter})",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L142C16-L142C44"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddWithValue(System.String,System.Object)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L152C13-L155C30"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Clear",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L162C16-L162C35"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.Object)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L170C16-L170C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L178C16-L178C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L186C16-L186C36"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(System.Array,System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L196C16-L196C55"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(Microsoft.Data.Sqlite.SqliteParameter[],System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L204C16-L204C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetEnumerator",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L211C16-L211C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L219C16-L219C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L227C16-L227C59"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.Object)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L235C16-L235C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L243C16-L243C42"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L252C18-L260C23"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,System.Object)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L269C16-L269C53"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L277C16-L277C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(System.Object)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L284C16-L284C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L291C16-L291C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L298C16-L298C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L305C16-L305C55"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.Int32,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L313C16-L313C52"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L321C16-L321C66"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Count",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L33C16-L33C33"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.SyncRoot",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L40C16-L40C51"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Item(System.Int32)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L49C20-L49C38"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Item(System.String)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L68C20-L68C55"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteParameterCollection",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Commit",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L87C13-L94C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Rollback",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L101C13-L107C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L117C13-L123C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.Connection",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L58C16-L58C27"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.DbConnection",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L65C16-L65C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.IsolationLevel",
+          "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L73C16-L80C54"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteTransaction",
+      "SourceLink": "https://github.com/aspnet/Microsoft.Data.Sqlite/blob/da74078a40763971fe12494de9f1dbdb8daf46ab/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs"
+    }
+  ]
+}

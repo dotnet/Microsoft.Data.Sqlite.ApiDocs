@@ -1,0 +1,1183 @@
+{
+  "Assembly": "Microsoft.Data.Sqlite",
+  "GUID": "B9E07CADEA80402794B64AA5339D7CB6FFFFFFFF",
+  "Tag": "YLvZLG4blN7mEvSsjPYkrv5LR/UBUXdSJjsg6uulm8U=",
+  "Types": [
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.#ctor(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String,System.Int64,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L38C15-L40C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.#ctor(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String,System.String,System.Int64,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L52C9-L87C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.Read(System.Byte[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L149C13-L189C26"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.Write(System.Byte[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L201C13-L246C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.Seek(System.Int64,System.IO.SeekOrigin)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L260C21-L277C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L288C13-L293C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.Flush",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L301C9-L301C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteBlob.SetLength(System.Int64)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L310C16-L310C77"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteBlob.CanRead",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L95C16-L95C20"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteBlob.CanWrite",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L101C41-L101C45"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteBlob.CanSeek",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L109C16-L109C20"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteBlob.Length",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L115C39-L115C43"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteBlob.Position",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs#L123C20-L123C29"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteBlob",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteBlob.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L28C9-L38C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L28C9-L45C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L53C15-L57C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.#ctor(System.String,Microsoft.Data.Sqlite.SqliteConnection,Microsoft.Data.Sqlite.SqliteTransaction)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L66C15-L67C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L213C13-L221C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.CreateParameter",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L228C16-L228C37"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.CreateDbParameter",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L235C16-L235C33"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Prepare",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L242C13-L263C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L273C16-L273C54"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L285C13-L319C44"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L361C16-L361C39"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L371C16-L371C83"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L382C16-L382C78"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L393C16-L393C68"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L408C13-L410C61"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L433C13-L446C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.ExecuteScalar",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L457C13-L471C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteCommand.Cancel",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L478C9-L478C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandType",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L76C20-L76C36"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandText",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L93C20-L93C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Connection",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L115C20-L115C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbConnection",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L140C20-L140C30"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Transaction",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L148C60-L148C64"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbTransaction",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L156C20-L156C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.Parameters",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L166C16-L166C63"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DbParameterCollection",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L173C16-L173C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.CommandTimeout",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L184C46-L184C50"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DesignTimeVisible",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L190C50-L190C54"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.UpdatedRowSource",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L196C60-L196C64"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteCommand.DataReader",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs#L202C66-L202C70"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteCommand",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteCommand.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,System.Func{``0,``0},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L21C16-L21C140"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,System.Func{``1,``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L34C16-L34C164"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``3(System.String,System.Func{``2,``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L48C16-L48C188"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``4(System.String,System.Func{``3,``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L63C16-L63C212"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``5(System.String,System.Func{``4,``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L79C16-L79C236"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``6(System.String,System.Func{``5,``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L96C16-L96C260"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``7(System.String,System.Func{``6,``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L114C16-L114C284"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``8(System.String,System.Func{``7,``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L133C16-L133C308"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``9(System.String,System.Func{``8,``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L153C16-L153C332"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``10(System.String,System.Func{``9,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L174C16-L174C356"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``11(System.String,System.Func{``10,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L196C16-L196C382"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``12(System.String,System.Func{``11,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L219C16-L219C408"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``13(System.String,System.Func{``12,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L243C16-L243C434"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``14(System.String,System.Func{``13,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L268C16-L268C460"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``15(System.String,System.Func{``14,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L294C16-L294C486"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``16(System.String,System.Func{``15,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L321C16-L321C512"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,System.Func{``0,System.Object[],``0},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L333C16-L333C155"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,``0,System.Func{``0,``0},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L346C16-L346C137"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,``1,System.Func{``1,``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L360C16-L360C161"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``3(System.String,``2,System.Func{``2,``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L375C16-L375C185"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``4(System.String,``3,System.Func{``3,``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L391C16-L391C209"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``5(System.String,``4,System.Func{``4,``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L408C16-L408C233"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``6(System.String,``5,System.Func{``5,``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L426C16-L426C257"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``7(System.String,``6,System.Func{``6,``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L445C16-L445C281"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``8(System.String,``7,System.Func{``7,``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L465C16-L465C305"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``9(System.String,``8,System.Func{``8,``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L486C16-L486C329"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``10(System.String,``9,System.Func{``9,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L508C16-L508C353"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``11(System.String,``10,System.Func{``10,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L531C16-L531C379"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``12(System.String,``11,System.Func{``11,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L555C16-L555C405"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``13(System.String,``12,System.Func{``12,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L580C16-L580C431"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``14(System.String,``13,System.Func{``13,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L606C16-L606C457"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``15(System.String,``14,System.Func{``14,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L633C16-L633C483"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``16(System.String,``15,System.Func{``15,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L661C16-L661C509"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``1(System.String,``0,System.Func{``0,System.Object[],``0},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L674C16-L674C152"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,``0,System.Func{``0,``0},System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L692C16-L692C145"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``3(System.String,``1,System.Func{``1,``0,``1},System.Func{``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L711C16-L711C169"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``4(System.String,``2,System.Func{``2,``0,``1,``2},System.Func{``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L731C16-L731C193"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``5(System.String,``3,System.Func{``3,``0,``1,``2,``3},System.Func{``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L752C16-L752C217"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``6(System.String,``4,System.Func{``4,``0,``1,``2,``3,``4},System.Func{``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L774C16-L774C241"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``7(System.String,``5,System.Func{``5,``0,``1,``2,``3,``4,``5},System.Func{``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L797C16-L797C265"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``8(System.String,``6,System.Func{``6,``0,``1,``2,``3,``4,``5,``6},System.Func{``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L821C16-L821C289"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``9(System.String,``7,System.Func{``7,``0,``1,``2,``3,``4,``5,``6,``7},System.Func{``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L846C16-L846C313"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``10(System.String,``8,System.Func{``8,``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Func{``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L872C16-L872C337"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``11(System.String,``9,System.Func{``9,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Func{``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L899C16-L899C361"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``12(System.String,``10,System.Func{``10,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Func{``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L927C16-L927C387"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``13(System.String,``11,System.Func{``11,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Func{``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L956C16-L956C413"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``14(System.String,``12,System.Func{``12,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Func{``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L986C16-L986C439"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``15(System.String,``13,System.Func{``13,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Func{``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L1017C16-L1017C465"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``16(System.String,``14,System.Func{``14,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Func{``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L1049C16-L1049C491"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``17(System.String,``15,System.Func{``15,``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Func{``15,``16},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L1082C16-L1082C517"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateAggregate``2(System.String,``0,System.Func{``0,System.Object[],``0},System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateAggregate.cs#L1100C16-L1100C160"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``1(System.String,System.Func{``0},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L21C16-L21C126"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``2(System.String,System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L34C16-L34C148"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``3(System.String,System.Func{``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L48C16-L48C172"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``4(System.String,System.Func{``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L63C16-L63C196"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``5(System.String,System.Func{``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L79C16-L79C220"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``6(System.String,System.Func{``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L96C16-L96C244"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``7(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L114C16-L114C268"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``8(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L133C16-L133C292"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``9(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L153C16-L153C316"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``10(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L174C16-L174C340"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``11(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L196C16-L196C366"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``12(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L219C16-L219C392"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``13(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L243C16-L243C418"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``14(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L268C16-L268C444"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``15(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L294C16-L294C470"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``16(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L321C16-L321C496"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``17(System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L349C16-L349C522"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``1(System.String,System.Func{System.Object[],``0},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L361C16-L361C139"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``2(System.String,``0,System.Func{``0,``1},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L375C16-L375C128"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``3(System.String,``0,System.Func{``0,``1,``2},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L390C16-L390C152"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``4(System.String,``0,System.Func{``0,``1,``2,``3},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L406C16-L406C176"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``5(System.String,``0,System.Func{``0,``1,``2,``3,``4},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L423C16-L423C200"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``6(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L441C16-L441C224"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``7(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L460C16-L460C248"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``8(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L480C16-L480C272"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``9(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L501C16-L501C296"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``10(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L523C16-L523C320"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``11(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L546C16-L546C344"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``12(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L570C16-L570C370"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``13(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L595C16-L595C396"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``14(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L621C16-L621C422"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``15(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L648C16-L648C448"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``16(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L676C16-L676C474"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``17(System.String,``0,System.Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9,``10,``11,``12,``13,``14,``15,``16},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L705C16-L705C500"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateFunction``2(System.String,``0,System.Func{``0,System.Object[],``1},System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.CreateFunction.cs#L719C16-L719C143"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.#ctor",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L28C9-L52C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L28C9-L61C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Open",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L162C13-L337C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Close",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L344C13-L372C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L383C13-L389C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCommand",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L400C16-L405C14"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateDbCommand",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L412C16-L412C31"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCollation(System.String,System.Comparison{System.String})",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L436C16-L437C126"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.CreateCollation``1(System.String,``0,System.Func{``0,System.String,System.String,System.Int32})",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L449C13-L464C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L474C16-L474C60"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L494C16-L494C70"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginDbTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L502C16-L502C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(System.Data.IsolationLevel)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L513C16-L513C108"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BeginTransaction(System.Data.IsolationLevel,System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L535C13-L545C88"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.ChangeDatabase(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L554C16-L554C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.EnableExtensions(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L563C13-L570C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.LoadExtension(System.String,System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L580C13-L603C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BackupDatabase(Microsoft.Data.Sqlite.SqliteConnection)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L629C16-L629C79"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnection.BackupDatabase(Microsoft.Data.Sqlite.SqliteConnection,System.String,System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L640C13-L677C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Handle",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L69C16-L69C19"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.ConnectionString",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L79C20-L79C37"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Database",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L99C16-L99C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.DataSource",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L109C17-L115C67"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.DefaultTimeout",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L126C45-L126C49"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.ServerVersion",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L133C16-L133C53"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.State",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L140C16-L140C22"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.DbProviderFactory",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L147C16-L147C38"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnection.Transaction",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs#L153C68-L153C72"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteConnection",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.#ctor",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L44C9-L82C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.#ctor(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L44C9-L91C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Clear",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L284C13-L290C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ContainsKey(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L298C16-L298C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Remove(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L307C13-L315C25"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ShouldSerialize(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L324C16-L324C113"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.TryGetValue(System.String,System.Object@)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L334C13-L343C25"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.DataSource",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L99C20-L99C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Mode",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L109C20-L109C25"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Keys",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L118C16-L118C72"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Values",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L128C17-L134C63"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Cache",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L144C20-L144C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Password",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L156C20-L156C29"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.ForeignKeys",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L169C20-L169C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.RecursiveTriggers",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L181C20-L181C38"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder.Item(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs#L192C20-L192C44"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteConnectionStringBuilder",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteConnectionStringBuilder.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L117C16-L117C58"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Read",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L124C16-L126C45"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.NextResult",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L137C13-L215C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Close",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L226C16-L226C29"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L237C13-L268C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetName(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L276C16-L280C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetOrdinal(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L288C16-L292C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDataTypeName(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L303C16-L307C55"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFieldType(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L315C16-L319C52"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.IsDBNull(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L327C16-L331C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetBoolean(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L339C16-L343C50"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetByte(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L351C16-L355C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetChar(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L363C16-L367C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDateTime(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L375C16-L379C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDateTimeOffset(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L387C16-L391C57"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetTimeSpan(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L399C16-L403C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDecimal(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L411C16-L415C50"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetDouble(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L423C16-L427C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFloat(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L435C16-L439C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetGuid(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L447C16-L451C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt16(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L459C16-L463C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt32(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L471C16-L475C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetInt64(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L483C16-L487C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetString(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L495C16-L499C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L511C16-L515C90"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L527C16-L531C90"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetStream(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L542C16-L546C49"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetTextReader(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L554C16-L556C70"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetFieldValue``1(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L566C16-L570C56"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetValue(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L579C16-L583C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetValues(System.Object[])",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L592C16-L596C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteDataReader.GetSchemaTable",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L605C13-L737C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Depth",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L50C16-L50C17"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.FieldCount",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L57C16-L59C45"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Handle",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L67C16-L67C31"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.HasRows",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L74C16-L74C41"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.IsClosed",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L81C16-L81C23"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.RecordsAffected",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L88C16-L88C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Item(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L97C16-L99C32"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteDataReader.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs#L108C16-L110C35"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteDataReader",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteDataReader.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L23C15-L25C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.#ctor(System.String,System.Int32,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L34C15-L38C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(System.Int32,SQLitePCL.sqlite3)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L64C13-L86C104"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteException.SqliteErrorCode",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L45C46-L45C50"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteException.SqliteExtendedErrorCode",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteException.cs#L52C54-L52C58"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteException",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteException.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateCommand",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L27C16-L27C35"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnection",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L34C16-L34C38"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateConnectionStringBuilder",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L41C16-L41C51"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteFactory.CreateParameter",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs#L48C16-L48C37"
+        },
+        {
+          "DocsId": "F:Microsoft.Data.Sqlite.SqliteFactory.Instance",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteFactory",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteFactory.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L21C9-L33C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,System.Object)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L21C9-L46C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L21C9-L58C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L68C15-L69C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.#ctor(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L80C15-L81C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.ResetDbType",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L192C16-L192C33"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameter.ResetSqliteType",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L199C13-L201C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.DbType",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L88C41-L88C45"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SqliteType",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L97C20-L97C74"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Direction",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L107C20-L107C44"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.IsNullable",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L121C43-L121C47"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.ParameterName",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L129C20-L129C34"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Size",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L141C20-L146C33"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SourceColumn",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L166C20-L166C33"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.SourceColumnNullMapping",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L174C56-L174C60"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameter.Value",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs#L184C20-L184C26"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteParameter",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameter.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.#ctor",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L20C9-L27C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.Object)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L81C13-L83C30"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L94C13-L96C26"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L107C16-L107C61"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L118C16-L118C67"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L132C16-L132C81"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Array)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L142C16-L142C56"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Data.Sqlite.SqliteParameter})",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L150C16-L150C44"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddWithValue(System.String,System.Object)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L162C13-L165C30"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Clear",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L172C16-L172C35"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.Object)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L180C16-L180C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L188C16-L188C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Contains(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L196C16-L196C36"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(System.Array,System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L206C16-L206C55"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.CopyTo(Microsoft.Data.Sqlite.SqliteParameter[],System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L214C16-L214C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetEnumerator",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L221C16-L221C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L229C16-L229C27"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.GetParameter(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L237C16-L237C59"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.Object)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L245C16-L245C47"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L253C16-L253C42"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.IndexOf(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L262C18-L270C23"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,System.Object)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L279C16-L279C53"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Insert(System.Int32,Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L287C16-L287C48"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(System.Object)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L294C16-L294C46"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.Remove(Microsoft.Data.Sqlite.SqliteParameter)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L301C16-L301C41"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L308C16-L308C43"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.RemoveAt(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L315C16-L315C55"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.Int32,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L323C16-L323C52"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteParameterCollection.SetParameter(System.String,System.Data.Common.DbParameter)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L331C16-L331C66"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Count",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L34C16-L34C33"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.SyncRoot",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L41C16-L41C51"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Item(System.Int32)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L50C20-L50C38"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteParameterCollection.Item(System.String)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs#L69C20-L69C55"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteParameterCollection",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteParameterCollection.cs"
+    },
+    {
+      "Members": [
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Commit",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L91C13-L101C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Rollback",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L108C13-L114C10"
+        },
+        {
+          "DocsId": "M:Microsoft.Data.Sqlite.SqliteTransaction.Dispose(System.Boolean)",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L125C13-L131C10"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.Connection",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L60C16-L60C27"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.DbConnection",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L67C16-L67C26"
+        },
+        {
+          "DocsId": "P:Microsoft.Data.Sqlite.SqliteTransaction.IsolationLevel",
+          "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs#L77C16-L84C54"
+        }
+      ],
+      "DocsId": "T:Microsoft.Data.Sqlite.SqliteTransaction",
+      "SourceLink": "https://github.com/dotnet/efcore/blob/33570d0337f76208fa3a814f7f6d3a506bd9c0be/src/Microsoft.Data.Sqlite.Core/SqliteTransaction.cs"
+    }
+  ]
+}
