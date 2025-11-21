@@ -21,6 +21,7 @@
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
+    <AssemblyVersion>10.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbParameterCollection</BaseTypeName>
@@ -59,6 +60,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -89,6 +91,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -126,6 +129,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -148,7 +152,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (parameterName As String, type As SqliteType) As SqliteParameter" />
       <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type)" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter Add (string? parameterName, Microsoft.Data.Sqlite.SqliteType type);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter Add (string? parameterName, Microsoft.Data.Sqlite.SqliteType type);" FrameworkAlternate="msdata-sqlite-10.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -164,6 +168,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -195,7 +200,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (parameterName As String, type As SqliteType, size As Integer) As SqliteParameter" />
       <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size)" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter Add (string? parameterName, Microsoft.Data.Sqlite.SqliteType type, int size);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter Add (string? parameterName, Microsoft.Data.Sqlite.SqliteType type, int size);" FrameworkAlternate="msdata-sqlite-10.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -211,6 +216,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -244,7 +250,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.Add(System.String,Microsoft.Data.Sqlite.SqliteType,System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Add (parameterName As String, type As SqliteType, size As Integer, sourceColumn As String) As SqliteParameter" />
       <MemberSignature Language="F#" Value="override this.Add : string * Microsoft.Data.Sqlite.SqliteType * int * string -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.Add (parameterName, type, size, sourceColumn)" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter Add (string? parameterName, Microsoft.Data.Sqlite.SqliteType type, int size, string? sourceColumn);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter Add (string? parameterName, Microsoft.Data.Sqlite.SqliteType type, int size, string? sourceColumn);" FrameworkAlternate="msdata-sqlite-10.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -260,6 +266,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -305,6 +312,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -343,6 +351,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -364,7 +373,7 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Data.Sqlite.SqliteParameterCollection.AddWithValue(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function AddWithValue (parameterName As String, value As Object) As SqliteParameter" />
       <MemberSignature Language="F#" Value="abstract member AddWithValue : string * obj -&gt; Microsoft.Data.Sqlite.SqliteParameter&#xA;override this.AddWithValue : string * obj -&gt; Microsoft.Data.Sqlite.SqliteParameter" Usage="sqliteParameterCollection.AddWithValue (parameterName, value)" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter AddWithValue (string? parameterName, object? value);" FrameworkAlternate="msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Data.Sqlite.SqliteParameter AddWithValue (string? parameterName, object? value);" FrameworkAlternate="msdata-sqlite-10.0.0;msdata-sqlite-6.0.0;msdata-sqlite-7.0.0;msdata-sqlite-8.0.0;msdata-sqlite-9.0.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Data.Sqlite</AssemblyName>
@@ -380,6 +389,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -419,6 +429,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -452,6 +463,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -490,6 +502,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -528,6 +541,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -566,6 +580,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -604,6 +619,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -644,6 +660,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -677,6 +694,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -711,6 +729,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
@@ -748,6 +767,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
@@ -785,6 +805,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -822,6 +843,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -859,6 +881,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -896,6 +919,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -934,6 +958,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1041,6 +1066,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -1078,6 +1104,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteParameter</ReturnType>
@@ -1115,6 +1142,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1151,6 +1179,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1187,6 +1216,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1223,6 +1253,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1259,6 +1290,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1297,6 +1329,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1335,6 +1368,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
