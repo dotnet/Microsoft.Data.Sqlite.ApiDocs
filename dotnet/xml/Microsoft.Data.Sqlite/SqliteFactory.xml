@@ -21,6 +21,7 @@
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>9.0.0.0</AssemblyVersion>
+    <AssemblyVersion>10.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbProviderFactory</BaseTypeName>
@@ -60,6 +61,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbCommand</ReturnType>
@@ -94,6 +96,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnection</ReturnType>
@@ -128,6 +131,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbConnectionStringBuilder</ReturnType>
@@ -162,6 +166,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Common.DbParameter</ReturnType>
@@ -196,6 +201,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>9.0.0.0</AssemblyVersion>
+        <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Data.Sqlite.SqliteFactory</ReturnType>
